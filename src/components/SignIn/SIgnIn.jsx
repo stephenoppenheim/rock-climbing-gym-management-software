@@ -1,4 +1,5 @@
 
+import Button from '../Button/Button';
 import './SignIn.css';
 
 const SignIn = () => {
@@ -14,10 +15,13 @@ const SignIn = () => {
                     <span>PASSWORD</span>
                     <input type="password" name="password" required />
                 </label>
-                <button type="submit">Sign In</button>
+                <Button type="submit" text="Sign In" />
             </form>
         </section>
     )
 }
 
 export default SignIn;
+
+
+// const Button = ({ type, classes, onClick, text }) => {
