@@ -1,12 +1,19 @@
 import './App.css'
-import Header from './components/Header/Header';
+import PublicHeader from './components/Headers/PublicHeader/PublicHeader';
+import AppHeader from './components/Headers/AppHeader/AppHeader';
 import SignIn from './components/SignIn/SIgnIn';
+import SignInPage from './components/Pages/SignInPage';
+import { Routes, Route, Navigate } from 'react-router';
 
 function App() {
+
+  const isLoggedIn = false;
+
   return (
     <>
-      <Header />
-      <SignIn />
+      <Routes>
+        <Route path="/" element={<SignInPage />} />
+      </Routes>
     </>
   )
 }
