@@ -1,0 +1,11 @@
+.sign-in-branding {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.sign-in-branding img {
+    height: 40px;
+    margin-right: 10px;
+}
+
