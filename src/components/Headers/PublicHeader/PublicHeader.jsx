@@ -3,7 +3,7 @@ import "./PublicHeader.css";
 const PublicHeader = () => {
     return (
         <header>
-            <div className="sign-in-branding">
+            <div className="public-header-sign-in-branding">
                 <img src="https://www.stephencodes.com/launchcode/images/logo2.png" alt="logo" />
                 <h1>SUMMIT PRO</h1>
             </div>
