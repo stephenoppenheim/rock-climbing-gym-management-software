@@ -1,6 +1,6 @@
-import "./Header.css";
+import "./PublicHeader.css";
 
-const Header = () => {
+const PublicHeader = () => {
     return (
         <header>
             <div className="sign-in-branding">
@@ -20,4 +20,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default PublicHeader;
