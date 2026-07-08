@@ -19,7 +19,7 @@ const AppHeader = () => {
                     <ul>
                         <NavbarLink imgUrl={testUrl} path="/dashboard" label="Dashboard" end/>
                         <NavbarLink imgUrl={testUrl} path="/dashboard/checkin" label="Check-In" end/>
-                        <NavbarLink imgUrl={testUrl} path="/dashboard/members" label="Members" end/>
+                        <NavbarLink imgUrl={testUrl} path="/dashboard/climbers" label="Climbers" end/>
                         <NavbarLink imgUrl={testUrl} path="/dashboard/pointofsale" label="Point of Sale" end/>
                         <NavbarLink imgUrl={testUrl} path="/dashboard/documents" label="Pending Documents" end/>
                         <NavbarLink imgUrl={testUrl} path="/dashboard/calendar" label="Calendar" end/>
