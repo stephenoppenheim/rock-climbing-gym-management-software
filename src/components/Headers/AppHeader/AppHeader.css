@@ -13,3 +13,33 @@
 ul img {
     height: 40px;
 }
+
+.app-header {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+}
+
+.app-header nav {
+    flex-grow: 1;
+}
+
+.app-header nav ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.app-header nav ul li:last-child {
+    margin-top: auto;
+}
+
+.app-header-user {
+    display: flex;
+    align-items: center;
+}
+
+.app-header-user img {
+    height: 40px;
+}
