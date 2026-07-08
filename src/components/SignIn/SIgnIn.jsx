@@ -2,7 +2,7 @@
 import Button from '../Button/Button';
 import Input from '../Input/Input';
 import { useNavigate } from 'react-router';
-import userData from "../../assets/user-data.json";
+import loginData from "../../assets/login-data.json";
 import './SignIn.css';
 
 
@@ -15,7 +15,7 @@ const SignIn = () => {
         const formData = new FormData(event.currentTarget);
         const email = formData.get("email").toLowerCase();
         const password = formData.get("password");
-        const user = userData.find(user => user.email === email);
+        const user = loginData.find(user => user.email === email);
         if (!user) console.error("FUTURE FEATURE - EMAL NOT FOUND");
         else {
             if (user.password === password) navigate("/dashboard");

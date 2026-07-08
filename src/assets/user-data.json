@@ -1,9 +1,12 @@
 [
     {
+        "id": 0,
         "firstName": "John",
         "lastName": "Doe",
-        "email": "test@test.com",
-        "password": "testpassword",
-        "isStaff": true
+        "isStaff": true,
+        "widgets": {
+            "staff": [0, 1, 2, 3, 4, 5],
+            "admin": null
+        }
     }
 ]
