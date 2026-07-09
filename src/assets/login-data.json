@@ -1,7 +1,7 @@
+
 [
     {
-        "firstName": "John",
-        "lastName": "Doe",
+        "id": 0,
         "email": "test@test.com",
         "password": "testpassword",
         "isStaff": true

@@ -1,0 +1,31 @@
+
+[
+    {
+        "firstName": "Brooke",
+        "middleName": "M.",
+        "lastName": "Raboutou",
+        "phoneNumber": "314-555-0103",
+        "birthDate": "2001-04-09",
+        "addressLine1": "101 Crimper Lane",
+        "addressLine2": "",
+        "city": "Webster Groves",
+        "state": "MO",
+        "zipCode": "63119",
+        "country": "USA",
+        "email": "brooke.r@example.com"
+    },
+    {
+        "firstName": "Julia",
+        "middleName": "",
+        "lastName": "Chanourdie",
+        "phoneNumber": "314-555-0120",
+        "birthDate": "1996-08-05",
+        "addressLine1": "357 Dihedral Way",
+        "addressLine2": "",
+        "city": "Creve Coeur",
+        "state": "MO",
+        "zipCode": "63141",
+        "country": "USA",
+        "email": "julia.c@example.com"
+    }
+]

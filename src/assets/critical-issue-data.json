@@ -1,0 +1,54 @@
+
+[
+    {
+        "userId": "000000009i0j1k2l",
+        "firstName": "Brooke",
+        "middleName": "M.",
+        "lastName": "Raboutou",
+        "phoneNumber": "314-555-0103",
+        "birthDate": "2001-04-09",
+        "addressLine1": "101 Crimper Lane",
+        "addressLine2": "",
+        "city": "Webster Groves",
+        "state": "MO",
+        "zipCode": "63119",
+        "country": "USA",
+        "email": "brooke.r@example.com",
+        "hasWaiver": true,
+        "waiverExpirationDate": "2026-05-14T00:00:00Z"
+    },
+    {
+        "userId": "000000001u2v3w4x",
+        "firstName": "Tomoa",
+        "middleName": "",
+        "lastName": "Narasaki",
+        "phoneNumber": "314-555-0106",
+        "birthDate": "1996-06-22",
+        "addressLine1": "333 Sloper Street",
+        "addressLine2": "Suite 100",
+        "city": "St. Louis",
+        "state": "MO",
+        "zipCode": "63108",
+        "country": "USA",
+        "email": "tomoa.n@example.com",
+        "hasWaiver": true,
+        "waiverExpirationDate": "2026-06-01T00:00:00Z"
+    },
+    {
+        "userId": "000000007y8z9a0b",
+        "firstName": "Julia",
+        "middleName": "",
+        "lastName": "Chanourdie",
+        "phoneNumber": "314-555-0120",
+        "birthDate": "1996-08-05",
+        "addressLine1": "357 Dihedral Way",
+        "addressLine2": "",
+        "city": "Creve Coeur",
+        "state": "MO",
+        "zipCode": "63141",
+        "country": "USA",
+        "email": "julia.c@example.com",
+        "hasWaiver": true,
+        "waiverExpirationDate": "2026-07-01T00:00:00Z"
+    }
+]

@@ -1,0 +1,6 @@
+.dashboardwidget {
+    height: 150px;
+    min-width: 140px;
+    border: 1px solid #25272F;
+    border-radius: 10px;
+}

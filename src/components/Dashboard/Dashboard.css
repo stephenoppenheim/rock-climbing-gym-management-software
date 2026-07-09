@@ -1,0 +1,14 @@
+
+.dashboard-staff-widgets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 16px;
+    border: 1px solid green;
+}
+
+@container main-container (max-width: 608px) {
+    .dashboard-staff-widgets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
