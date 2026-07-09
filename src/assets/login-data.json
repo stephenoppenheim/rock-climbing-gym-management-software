@@ -1,7 +1,9 @@
+
 [
     {
         "id": 0,
         "email": "test@test.com",
-        "password": "testpassword"
+        "password": "testpassword",
+        "isStaff": true
     }
 ]
