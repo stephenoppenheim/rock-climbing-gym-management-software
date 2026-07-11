@@ -14,7 +14,8 @@
         "country": "USA",
         "email": "alex.honnold@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-04-12T00:00:00Z"
+        "waiverExpirationDate": "2027-04-12T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000005e6f7g8h",
@@ -31,7 +32,8 @@
         "country": "USA",
         "email": "janja.g@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-01-20T00:00:00Z"
+        "waiverExpirationDate": "2027-01-20T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000009i0j1k2l",
@@ -48,7 +50,8 @@
         "country": "USA",
         "email": "brooke.r@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2026-05-14T00:00:00Z"
+        "waiverExpirationDate": "2026-05-14T00:00:00Z",
+        "status": 1
     },
     {
         "userId": "000000003m4n5o6p",
@@ -65,7 +68,8 @@
         "country": "USA",
         "email": "adam.ondra@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-06-30T00:00:00Z"
+        "waiverExpirationDate": "2027-06-30T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000007q8r9s0t",
@@ -82,7 +86,8 @@
         "country": "USA",
         "email": "miho.n@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-02-11T00:00:00Z"
+        "waiverExpirationDate": "2027-02-11T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000001u2v3w4x",
@@ -99,7 +104,8 @@
         "country": "USA",
         "email": "tomoa.n@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2026-06-01T00:00:00Z"
+        "waiverExpirationDate": "2026-06-01T00:00:00Z",
+        "status": 1
     },
     {
         "userId": "000000005y6z7a8b",
@@ -116,7 +122,8 @@
         "country": "USA",
         "email": "jakob.s@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2026-12-25T00:00:00Z"
+        "waiverExpirationDate": "2026-12-25T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000009c0d1e2f",
@@ -133,7 +140,8 @@
         "country": "USA",
         "email": "jessica.p@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-03-15T00:00:00Z"
+        "waiverExpirationDate": "2027-03-15T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000003g4h5i6j",
@@ -150,7 +158,8 @@
         "country": "USA",
         "email": "alberto.g@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-05-20T00:00:00Z"
+        "waiverExpirationDate": "2027-05-20T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000007k8l9m0n",
@@ -167,7 +176,8 @@
         "country": "USA",
         "email": "chaehyun.s@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-01-10T00:00:00Z"
+        "waiverExpirationDate": "2027-01-10T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000001o2p3q4r",
@@ -184,7 +194,8 @@
         "country": "USA",
         "email": "nathaniel.c@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-02-28T00:00:00Z"
+        "waiverExpirationDate": "2027-02-28T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000005s6t7u8v",
@@ -201,7 +212,8 @@
         "country": "USA",
         "email": "akiyo.n@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-07-01T00:00:00Z"
+        "waiverExpirationDate": "2027-07-01T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000009w0x1y2z",
@@ -218,7 +230,8 @@
         "country": "USA",
         "email": "colin.d@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-05-18T00:00:00Z"
+        "waiverExpirationDate": "2027-05-18T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000003a4b5c6d",
@@ -235,7 +248,8 @@
         "country": "USA",
         "email": "laura.r@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-03-30T00:00:00Z"
+        "waiverExpirationDate": "2027-03-30T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000007e8f9g0h",
@@ -252,7 +266,8 @@
         "country": "USA",
         "email": "sean.m@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-04-05T00:00:00Z"
+        "waiverExpirationDate": "2027-04-05T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000001i2j3k4l",
@@ -269,7 +284,8 @@
         "country": "USA",
         "email": "kyra.c@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-06-12T00:00:00Z"
+        "waiverExpirationDate": "2027-06-12T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000005m6n7o8p",
@@ -286,7 +302,8 @@
         "country": "USA",
         "email": "alex.m@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-01-15T00:00:00Z"
+        "waiverExpirationDate": "2027-01-15T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000009q0r1s2t",
@@ -303,7 +320,8 @@
         "country": "USA",
         "email": "shauna.c@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-05-02T00:00:00Z"
+        "waiverExpirationDate": "2027-05-02T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000003u4v5w6x",
@@ -320,7 +338,8 @@
         "country": "USA",
         "email": "mickael.m@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-02-20T00:00:00Z"
+        "waiverExpirationDate": "2027-02-20T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000007y8z9a0b",
@@ -337,7 +356,8 @@
         "country": "USA",
         "email": "julia.c@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2026-07-01T00:00:00Z"
+        "waiverExpirationDate": "2026-07-01T00:00:00Z",
+        "status": 1
     },
     {
         "userId": "000000001c2d3e4f",
@@ -354,7 +374,8 @@
         "country": "USA",
         "email": "bassa.m@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-06-18T00:00:00Z"
+        "waiverExpirationDate": "2027-06-18T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000005g6h7i8j",
@@ -371,7 +392,8 @@
         "country": "USA",
         "email": "iuliia.k@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-03-01T00:00:00Z"
+        "waiverExpirationDate": "2027-03-01T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000009k0l1m2n",
@@ -388,7 +410,8 @@
         "country": "USA",
         "email": "kai.h@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-04-22T00:00:00Z"
+        "waiverExpirationDate": "2027-04-22T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000003o4p5q6r",
@@ -405,7 +428,8 @@
         "country": "USA",
         "email": "mia.k@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-05-09T00:00:00Z"
+        "waiverExpirationDate": "2027-05-09T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000002b3c4d5e",
@@ -422,7 +446,8 @@
         "country": "USA",
         "email": "sharma@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-06-15T00:00:00Z"
+        "waiverExpirationDate": "2027-06-15T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000006f7g8h9i",
@@ -439,7 +464,8 @@
         "country": "USA",
         "email": "margo.hayes@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-02-28T00:00:00Z"
+        "waiverExpirationDate": "2027-02-28T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000000j1k2l3m",
@@ -456,7 +482,8 @@
         "country": "USA",
         "email": "daniel.woods@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2026-02-14T00:00:00Z"
+        "waiverExpirationDate": "2026-02-14T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000004n5o6p7q",
@@ -473,7 +500,8 @@
         "country": "USA",
         "email": "ashima@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-05-10T00:00:00Z"
+        "waiverExpirationDate": "2027-05-10T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000008r9s0t1u",
@@ -490,7 +518,8 @@
         "country": "USA",
         "email": "magnus.m@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-08-01T00:00:00Z"
+        "waiverExpirationDate": "2027-08-01T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000002v3w4x5y",
@@ -507,7 +536,8 @@
         "country": "USA",
         "email": "lynn.hill@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-03-24T00:00:00Z"
+        "waiverExpirationDate": "2027-03-24T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000006z7a8b9c",
@@ -524,7 +554,8 @@
         "country": "USA",
         "email": "tommy.c@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-01-18T00:00:00Z"
+        "waiverExpirationDate": "2027-01-18T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000000d1e2f3g",
@@ -541,7 +572,8 @@
         "country": "USA",
         "email": "jan.hojer@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2026-04-12T00:00:00Z"
+        "waiverExpirationDate": "2026-04-12T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000004h5i6j7k",
@@ -558,7 +590,8 @@
         "country": "USA",
         "email": "aleksei.r@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-04-20T00:00:00Z"
+        "waiverExpirationDate": "2027-04-20T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000008l9m0n1o",
@@ -575,7 +608,8 @@
         "country": "USA",
         "email": "sasha.d@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-06-05T00:00:00Z"
+        "waiverExpirationDate": "2027-06-05T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000002p3q4r5s",
@@ -592,7 +626,8 @@
         "country": "USA",
         "email": "paul.r@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-03-12T00:00:00Z"
+        "waiverExpirationDate": "2027-03-12T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000006t7u8v9w",
@@ -609,7 +644,8 @@
         "country": "USA",
         "email": "alannah.yip@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-05-22T00:00:00Z"
+        "waiverExpirationDate": "2027-05-22T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000000x1y2z3a",
@@ -626,7 +662,8 @@
         "country": "USA",
         "email": "jongwon.c@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-01-30T00:00:00Z"
+        "waiverExpirationDate": "2027-01-30T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000004b5c6d7e",
@@ -643,7 +680,8 @@
         "country": "USA",
         "email": "meagan.m@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2026-05-01T00:00:00Z"
+        "waiverExpirationDate": "2026-05-01T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000008f9g0h1i",
@@ -660,7 +698,8 @@
         "country": "USA",
         "email": "drew.ruana@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-07-14T00:00:00Z"
+        "waiverExpirationDate": "2027-07-14T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000002j3k4l5m",
@@ -677,7 +716,8 @@
         "country": "USA",
         "email": "sierra.bc@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-02-19T00:00:00Z"
+        "waiverExpirationDate": "2027-02-19T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000006n7o8p5q",
@@ -694,7 +734,8 @@
         "country": "USA",
         "email": "kokoro.f@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-04-11T00:00:00Z"
+        "waiverExpirationDate": "2027-04-11T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000000r1s2t3u",
@@ -711,7 +752,8 @@
         "country": "USA",
         "email": "natalia.g@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-06-28T00:00:00Z"
+        "waiverExpirationDate": "2027-06-28T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000004v5w6x7y",
@@ -728,7 +770,8 @@
         "country": "USA",
         "email": "jesse.g@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2027-05-15T00:00:00Z"
+        "waiverExpirationDate": "2027-05-15T00:00:00Z",
+        "status": 0
     },
     {
         "userId": "000000008z9a0b1c",
@@ -745,6 +788,7 @@
         "country": "USA",
         "email": "ai.mori@example.com",
         "hasWaiver": true,
-        "waiverExpirationDate": "2026-06-30T00:00:00Z"
+        "waiverExpirationDate": "2026-06-30T00:00:00Z",
+        "status": 0
     }
 ]
