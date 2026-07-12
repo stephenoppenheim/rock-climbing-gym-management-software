@@ -5,191 +5,215 @@
         "userId": "000000001a2b3c4d",
         "firstName": "Alex",
         "lastName": "Honnold",
-        "membershipType": "Prepaid Annual",
-        "checkInTime": "2026-07-09T08:15:22Z"
+        "member": true,
+        "checkInTime": "2026-07-09T08:15:22Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca02",
         "userId": "000000005e6f7g8h",
         "firstName": "Janja",
         "lastName": "Garnbret",
-        "membershipType": "Monthly Punchpass",
-        "checkInTime": "2026-07-09T09:02:11Z"
+        "member": false,
+        "checkInTime": "2026-07-09T09:02:11Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca03",
         "userId": "000000009i0j1k2l",
         "firstName": "Brooke",
         "lastName": "Raboutou",
-        "membershipType": "Standard Monthly",
-        "checkInTime": "2026-07-09T10:30:00Z"
+        "member": true,
+        "checkInTime": "2026-07-09T10:30:00Z",
+        "status": 1
     },
     {
         "checkInId": "000000003b9aca04",
         "userId": "000000003m4n5o6p",
         "firstName": "Adam",
         "lastName": "Ondra",
-        "membershipType": "Staff",
-        "checkInTime": "2026-07-09T11:12:45Z"
+        "member": true,
+        "checkInTime": "2026-07-09T11:12:45Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca05",
         "userId": "000000007q8r9s0t",
         "firstName": "Miho",
         "lastName": "Nonaka",
-        "membershipType": "Prepaid Annual",
-        "checkInTime": "2026-07-09T11:24:12Z"
+        "member": true,
+        "checkInTime": "2026-07-09T11:24:12Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca06",
         "userId": "000000001u2v3w4x",
         "firstName": "Tomoa",
         "lastName": "Narasaki",
-        "membershipType": "Monthly Punchpass",
-        "checkInTime": "2026-07-09T11:45:30Z"
+        "member": false,
+        "checkInTime": "2026-07-09T11:45:30Z",
+        "status": 1
     },
     {
         "checkInId": "000000003b9aca07",
         "userId": "000000005y6z7a8b",
         "firstName": "Jakob",
         "lastName": "Schubert",
-        "membershipType": "Standard Monthly",
-        "checkInTime": "2026-07-09T12:02:15Z"
+        "member": true,
+        "checkInTime": "2026-07-09T12:02:15Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca08",
         "userId": "000000009c0d1e2f",
         "firstName": "Jessica",
         "lastName": "Pilz",
-        "membershipType": "Standard Monthly",
-        "checkInTime": "2026-07-09T12:15:00Z"
+        "member": true,
+        "checkInTime": "2026-07-09T12:15:00Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca09",
         "userId": "000000003g4h5i6j",
         "firstName": "Alberto",
         "lastName": "Ginés López",
-        "membershipType": "Prepaid Annual",
-        "checkInTime": "2026-07-09T12:38:22Z"
+        "member": true,
+        "checkInTime": "2026-07-09T12:38:22Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca0a",
         "userId": "000000007k8l9m0n",
         "firstName": "Chaehyun",
         "lastName": "Seo",
-        "membershipType": "Weekpass",
-        "checkInTime": "2026-07-09T12:55:47Z"
+        "member": true,
+        "checkInTime": "2026-07-09T12:55:47Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca0b",
         "userId": "000000001o2p3q4r",
         "firstName": "Nathaniel",
         "lastName": "Coleman",
-        "membershipType": "Monthly Punchpass",
-        "checkInTime": "2026-07-09T13:10:12Z"
+        "member": false,
+        "checkInTime": "2026-07-09T13:10:12Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca0c",
         "userId": "000000005s6t7u8v",
         "firstName": "Akiyo",
         "lastName": "Noguchi",
-        "membershipType": "Staff",
-        "checkInTime": "2026-07-09T13:12:01Z"
+        "member": true,
+        "checkInTime": "2026-07-09T13:12:01Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca0d",
         "userId": "000000009w0x1y2z",
         "firstName": "Colin",
         "lastName": "Duffy",
-        "membershipType": "Standard Monthly",
-        "checkInTime": "2026-07-09T13:34:55Z"
+        "member": true,
+        "checkInTime": "2026-07-09T13:34:55Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca0e",
         "userId": "000000003a4b5c6d",
         "firstName": "Laura",
         "lastName": "Rogora",
-        "membershipType": "Day Pass",
-        "checkInTime": "2026-07-09T13:52:18Z"
+        "member": false,
+        "checkInTime": "2026-07-09T13:52:18Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca0f",
         "userId": "000000007e8f9g0h",
         "firstName": "Sean",
         "lastName": "McColl",
-        "membershipType": "Monthly Punchpass",
-        "checkInTime": "2026-07-09T14:05:33Z"
+        "member": false,
+        "checkInTime": "2026-07-09T14:05:33Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca10",
         "userId": "000000001i2j3k4l",
         "firstName": "Kyra",
         "lastName": "Condie",
-        "membershipType": "Standard Monthly",
-        "checkInTime": "2026-07-09T14:18:40Z"
+        "member": true,
+        "checkInTime": "2026-07-09T14:18:40Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca11",
         "userId": "000000005m6n7o8p",
         "firstName": "Alexander",
         "lastName": "Megos",
-        "membershipType": "Prepaid Annual",
-        "checkInTime": "2026-07-09T14:40:11Z"
+        "member": true,
+        "checkInTime": "2026-07-09T14:40:11Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca12",
         "userId": "000000009q0r1s2t",
         "firstName": "Shauna",
         "lastName": "Coxsey",
-        "membershipType": "Monthly Punchpass",
-        "checkInTime": "2026-07-09T14:55:02Z"
+        "member": false,
+        "checkInTime": "2026-07-09T14:55:02Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca13",
         "userId": "000000003u4v5w6x",
         "firstName": "Mickaël",
         "lastName": "Mawem",
-        "membershipType": "Standard Monthly",
-        "checkInTime": "2026-07-09T15:10:25Z"
+        "member": true,
+        "checkInTime": "2026-07-09T15:10:25Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca14",
         "userId": "000000007y8z9a0b",
         "firstName": "Julia",
         "lastName": "Chanourdie",
-        "membershipType": "Day Pass",
-        "checkInTime": "2026-07-09T15:22:14Z"
+        "member": false,
+        "checkInTime": "2026-07-09T15:22:14Z",
+        "status": 1
     },
     {
         "checkInId": "000000003b9aca15",
         "userId": "000000001c2d3e4f",
         "firstName": "Bassa",
         "lastName": "Mawem",
-        "membershipType": "Standard Monthly",
-        "checkInTime": "2026-07-09T15:45:00Z"
+        "member": true,
+        "checkInTime": "2026-07-09T15:45:00Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca16",
         "userId": "000000005g6h7i8j",
         "firstName": "Iuliia",
         "lastName": "Kaplina",
-        "membershipType": "Weekpass",
-        "checkInTime": "2026-07-09T15:58:31Z"
+        "member": true,
+        "checkInTime": "2026-07-09T15:58:31Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca17",
         "userId": "000000009k0l1m2n",
         "firstName": "Kai",
         "lastName": "Harada",
-        "membershipType": "Monthly Punchpass",
-        "checkInTime": "2026-07-09T16:12:09Z"
+        "member": false,
+        "checkInTime": "2026-07-09T16:12:09Z",
+        "status": 0
     },
     {
         "checkInId": "000000003b9aca18",
         "userId": "000000003o4p5q6r",
         "firstName": "Mia",
         "lastName": "Krampl",
-        "membershipType": "Standard Monthly",
-        "checkInTime": "2026-07-09T16:30:45Z"
+        "member": true,
+        "checkInTime": "2026-07-09T16:30:45Z",
+        "status": 0
     }
 ]
