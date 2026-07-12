@@ -9,7 +9,7 @@ import { CheckInContext } from "../Context/CheckInContext";
 import Table from "../Table/Table";
 import { checkedInMap, searchMap } from "../Table/tableMapFunctions";
 
-const SearchCustomers = ({ isCheckIn }) => {
+const CustomerSearch = ({ isCheckIn }) => {
 
     const { checkInState, updateCheckInData } = useContext(CheckInContext);
     const [query, updateQuery] = useState("");
@@ -77,4 +77,4 @@ const SearchCustomers = ({ isCheckIn }) => {
     )
 }
 
-export default SearchCustomers;
+export default CustomerSearch;
