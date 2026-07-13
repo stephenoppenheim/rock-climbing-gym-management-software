@@ -17,7 +17,7 @@ const CustomerRecord = ({ user }) => {
     }
 
     return (
-        <article>
+        <article className="customerrecord">
             <header>
                 <h3>{`${user.firstName} ${user.lastName}`}</h3>
                 <p>{user.phoneNumber}</p>
@@ -28,7 +28,7 @@ const CustomerRecord = ({ user }) => {
                     <span>Address</span>
                     <p>{user.addressLine1}</p>
                     {user.addressLine2 && <p>{user.addressLine2}</p>}
-                    {<p>{`${user.city}, ${user.state} ${user.zipcode}`}</p>}
+                    {<p>{`${user.city}, ${user.state} ${user.zipCode}`}</p>}
                 </div>
                 <div>
                     <span>Date of Birth</span>
@@ -38,9 +38,13 @@ const CustomerRecord = ({ user }) => {
                     <span>Has Waiver?</span>
                     <p>{user.hasWaiver ? "✅" : "❌"}</p>
                 </div>
+                <div>
+                    <span>Waiver Valid</span>
+                    <p>{user.status ? "❌" : "✅"}</p>
+                </div>
             </section>
         </article>
     )
 }
-// birthdate, address has waiver, waiver valid
+
 export default CustomerRecord;
