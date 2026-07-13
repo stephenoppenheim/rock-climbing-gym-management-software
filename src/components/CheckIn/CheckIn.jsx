@@ -9,14 +9,13 @@ import SearchBar from "../SearchBar/SearchBar";
 import Fuse from "fuse.js";
 import Button from "../Button/Button";
 import Table from "../Table/Table";
-import { checkedInMap } from "../Table/tableMapFunctions";
-import SearchCustomers from "../SearchCustomers/CustomerSearch";
+import CustomerSearch from "../CustomerSearch/CustomerSearch";
 
 const CheckIn = () => {
     return (
         <>
             <h3>Check-In</h3>
-            <SearchCustomers isCheckIn />
+            <CustomerSearch type="checkIn" />
         </>
     )
 }
