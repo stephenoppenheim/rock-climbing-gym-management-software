@@ -852,7 +852,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100001",
@@ -871,7 +871,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100002",
@@ -890,7 +890,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100003",
@@ -909,7 +909,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100004",
@@ -928,7 +928,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100005",
@@ -947,7 +947,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100006",
@@ -966,7 +966,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100007",
@@ -985,7 +985,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100008",
@@ -1004,7 +1004,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100009",
@@ -1023,7 +1023,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100011",
@@ -1042,7 +1042,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100012",
@@ -1061,7 +1061,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100014",
@@ -1080,7 +1080,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100015",
@@ -1099,7 +1099,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100016",
@@ -1118,7 +1118,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100017",
@@ -1137,7 +1137,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100018",
@@ -1156,7 +1156,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100019",
@@ -1175,7 +1175,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100020",
@@ -1194,7 +1194,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100021",
@@ -1213,7 +1213,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100023",
@@ -1232,7 +1232,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100024",
@@ -1251,7 +1251,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100025",
@@ -1270,7 +1270,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100026",
@@ -1289,7 +1289,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100028",
@@ -1308,7 +1308,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100029",
@@ -1327,7 +1327,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100030",
@@ -1346,7 +1346,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100031",
@@ -1365,7 +1365,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100032",
@@ -1384,7 +1384,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100033",
@@ -1403,7 +1403,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100034",
@@ -1422,7 +1422,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100035",
@@ -1441,7 +1441,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100036",
@@ -1460,7 +1460,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100037",
@@ -1479,7 +1479,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100038",
@@ -1498,7 +1498,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100040",
@@ -1517,7 +1517,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100041",
@@ -1536,7 +1536,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100042",
@@ -1555,7 +1555,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100043",
@@ -1574,7 +1574,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100044",
@@ -1593,7 +1593,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100045",
@@ -1612,7 +1612,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100046",
@@ -1631,7 +1631,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100047",
@@ -1650,7 +1650,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100048",
@@ -1669,7 +1669,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100049",
@@ -1688,7 +1688,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100050",
@@ -1707,7 +1707,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100051",
@@ -1726,7 +1726,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100052",
@@ -1745,7 +1745,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100054",
@@ -1764,7 +1764,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100055",
@@ -1783,7 +1783,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100056",
@@ -1802,7 +1802,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100057",
@@ -1821,7 +1821,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100058",
@@ -1840,7 +1840,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100059",
@@ -1859,7 +1859,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100060",
@@ -1878,7 +1878,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100061",
@@ -1897,7 +1897,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100062",
@@ -1916,7 +1916,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100063",
@@ -1935,7 +1935,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100064",
@@ -1954,7 +1954,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100065",
@@ -1973,7 +1973,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100066",
@@ -1992,7 +1992,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100067",
@@ -2011,7 +2011,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100068",
@@ -2030,7 +2030,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100069",
@@ -2049,7 +2049,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100070",
@@ -2068,7 +2068,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100071",
@@ -2087,7 +2087,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100072",
@@ -2106,7 +2106,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100073",
@@ -2125,7 +2125,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100074",
@@ -2144,7 +2144,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100076",
@@ -2163,7 +2163,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100077",
@@ -2182,7 +2182,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100079",
@@ -2201,7 +2201,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100081",
@@ -2220,7 +2220,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100082",
@@ -2239,7 +2239,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100083",
@@ -2258,7 +2258,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100084",
@@ -2277,7 +2277,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100085",
@@ -2296,7 +2296,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100086",
@@ -2315,7 +2315,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100087",
@@ -2334,7 +2334,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100088",
@@ -2353,7 +2353,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100089",
@@ -2372,7 +2372,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100090",
@@ -2391,7 +2391,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100091",
@@ -2410,7 +2410,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100092",
@@ -2429,7 +2429,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100093",
@@ -2448,7 +2448,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100094",
@@ -2467,7 +2467,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100095",
@@ -2486,7 +2486,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100096",
@@ -2505,7 +2505,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100097",
@@ -2524,7 +2524,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100099",
@@ -2543,7 +2543,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100101",
@@ -2562,7 +2562,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100102",
@@ -2581,7 +2581,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100103",
@@ -2600,7 +2600,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100104",
@@ -2619,7 +2619,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100105",
@@ -2638,7 +2638,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100107",
@@ -2657,7 +2657,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100111",
@@ -2676,7 +2676,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100112",
@@ -2695,7 +2695,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100113",
@@ -2714,7 +2714,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100114",
@@ -2733,7 +2733,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100116",
@@ -2752,7 +2752,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100118",
@@ -2771,7 +2771,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100119",
@@ -2790,7 +2790,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100122",
@@ -2809,7 +2809,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100124",
@@ -2828,7 +2828,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100125",
@@ -2847,7 +2847,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100127",
@@ -2866,7 +2866,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100131",
@@ -2885,7 +2885,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100132",
@@ -2904,7 +2904,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100133",
@@ -2923,7 +2923,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100134",
@@ -2942,7 +2942,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100135",
@@ -2961,7 +2961,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100136",
@@ -2980,7 +2980,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100137",
@@ -2999,7 +2999,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100138",
@@ -3018,7 +3018,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100139",
@@ -3037,7 +3037,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100140",
@@ -3056,7 +3056,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100141",
@@ -3075,7 +3075,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100143",
@@ -3094,7 +3094,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100144",
@@ -3113,7 +3113,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100146",
@@ -3132,7 +3132,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100147",
@@ -3151,7 +3151,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100148",
@@ -3170,7 +3170,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100150",
@@ -3189,7 +3189,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100151",
@@ -3208,7 +3208,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100152",
@@ -3227,7 +3227,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100154",
@@ -3246,7 +3246,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100155",
@@ -3265,7 +3265,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100156",
@@ -3284,7 +3284,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100157",
@@ -3303,7 +3303,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100158",
@@ -3322,7 +3322,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100159",
@@ -3341,7 +3341,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100160",
@@ -3360,7 +3360,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100161",
@@ -3379,7 +3379,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100163",
@@ -3398,7 +3398,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100164",
@@ -3417,7 +3417,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100165",
@@ -3436,7 +3436,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100168",
@@ -3455,7 +3455,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100169",
@@ -3474,7 +3474,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100170",
@@ -3493,7 +3493,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100171",
@@ -3512,7 +3512,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100172",
@@ -3531,7 +3531,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100174",
@@ -3550,7 +3550,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100176",
@@ -3569,7 +3569,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100177",
@@ -3588,7 +3588,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100178",
@@ -3607,7 +3607,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100179",
@@ -3626,7 +3626,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100180",
@@ -3645,7 +3645,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100184",
@@ -3664,7 +3664,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100185",
@@ -3683,7 +3683,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100187",
@@ -3702,7 +3702,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100189",
@@ -3721,7 +3721,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100191",
@@ -3740,7 +3740,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100192",
@@ -3759,7 +3759,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100195",
@@ -3778,7 +3778,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100200",
@@ -3797,7 +3797,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100201",
@@ -3816,7 +3816,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100204",
@@ -3835,7 +3835,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100205",
@@ -3854,7 +3854,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100208",
@@ -3873,7 +3873,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100209",
@@ -3892,7 +3892,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100211",
@@ -3911,7 +3911,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100212",
@@ -3930,7 +3930,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100215",
@@ -3949,7 +3949,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100219",
@@ -3968,7 +3968,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100220",
@@ -3987,7 +3987,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100223",
@@ -4006,7 +4006,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100224",
@@ -4025,7 +4025,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100226",
@@ -4044,7 +4044,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100227",
@@ -4063,7 +4063,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100229",
@@ -4082,7 +4082,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100230",
@@ -4101,7 +4101,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100232",
@@ -4120,7 +4120,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100233",
@@ -4139,7 +4139,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100234",
@@ -4158,7 +4158,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100237",
@@ -4177,7 +4177,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100238",
@@ -4196,7 +4196,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100241",
@@ -4215,7 +4215,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100242",
@@ -4234,7 +4234,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100245",
@@ -4253,7 +4253,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100247",
@@ -4272,7 +4272,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100248",
@@ -4291,7 +4291,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100250",
@@ -4310,7 +4310,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100251",
@@ -4329,7 +4329,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100256",
@@ -4348,7 +4348,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100257",
@@ -4367,7 +4367,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100260",
@@ -4386,7 +4386,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100262",
@@ -4405,7 +4405,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100263",
@@ -4424,7 +4424,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100264",
@@ -4443,7 +4443,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100265",
@@ -4462,7 +4462,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100267",
@@ -4481,7 +4481,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100268",
@@ -4500,7 +4500,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100272",
@@ -4519,7 +4519,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100274",
@@ -4538,7 +4538,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100279",
@@ -4557,7 +4557,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100280",
@@ -4576,7 +4576,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100284",
@@ -4595,7 +4595,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100285",
@@ -4614,7 +4614,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100286",
@@ -4633,7 +4633,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100288",
@@ -4652,7 +4652,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100290",
@@ -4671,7 +4671,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100292",
@@ -4690,7 +4690,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100294",
@@ -4709,7 +4709,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100297",
@@ -4728,7 +4728,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100298",
@@ -4747,7 +4747,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100299",
@@ -4766,7 +4766,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100301",
@@ -4785,7 +4785,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100302",
@@ -4804,7 +4804,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100304",
@@ -4823,7 +4823,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100305",
@@ -4842,7 +4842,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100307",
@@ -4861,7 +4861,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100310",
@@ -4880,7 +4880,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100312",
@@ -4899,7 +4899,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100313",
@@ -4918,7 +4918,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100314",
@@ -4937,7 +4937,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100316",
@@ -4956,7 +4956,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100317",
@@ -4975,7 +4975,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100319",
@@ -4994,7 +4994,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100320",
@@ -5013,7 +5013,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100322",
@@ -5032,7 +5032,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100326",
@@ -5051,7 +5051,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100335",
@@ -5070,7 +5070,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100337",
@@ -5089,7 +5089,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100340",
@@ -5108,7 +5108,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100345",
@@ -5127,7 +5127,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100348",
@@ -5146,7 +5146,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100349",
@@ -5165,7 +5165,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100351",
@@ -5184,7 +5184,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100352",
@@ -5203,7 +5203,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100355",
@@ -5222,7 +5222,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100357",
@@ -5241,7 +5241,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100361",
@@ -5260,7 +5260,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100363",
@@ -5279,7 +5279,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100365",
@@ -5298,7 +5298,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100366",
@@ -5317,7 +5317,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100367",
@@ -5336,7 +5336,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100368",
@@ -5355,7 +5355,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100377",
@@ -5374,7 +5374,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100378",
@@ -5393,7 +5393,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100379",
@@ -5412,7 +5412,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100383",
@@ -5431,7 +5431,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100384",
@@ -5450,7 +5450,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100390",
@@ -5469,7 +5469,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100391",
@@ -5488,7 +5488,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100393",
@@ -5507,7 +5507,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100394",
@@ -5526,7 +5526,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100395",
@@ -5545,7 +5545,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100397",
@@ -5564,7 +5564,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100398",
@@ -5583,7 +5583,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100400",
@@ -5602,7 +5602,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100402",
@@ -5621,7 +5621,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100403",
@@ -5640,7 +5640,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100406",
@@ -5659,7 +5659,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100408",
@@ -5678,7 +5678,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100411",
@@ -5697,7 +5697,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100414",
@@ -5716,7 +5716,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100418",
@@ -5735,7 +5735,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100427",
@@ -5754,7 +5754,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100428",
@@ -5773,7 +5773,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100431",
@@ -5792,7 +5792,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100437",
@@ -5811,7 +5811,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100439",
@@ -5830,7 +5830,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100443",
@@ -5849,7 +5849,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100446",
@@ -5868,7 +5868,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100450",
@@ -5887,7 +5887,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100451",
@@ -5906,7 +5906,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100453",
@@ -5925,7 +5925,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100454",
@@ -5944,7 +5944,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100455",
@@ -5963,7 +5963,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100470",
@@ -5982,7 +5982,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100471",
@@ -6001,7 +6001,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100472",
@@ -6020,7 +6020,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100478",
@@ -6039,7 +6039,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100480",
@@ -6058,7 +6058,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100483",
@@ -6077,7 +6077,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100489",
@@ -6096,7 +6096,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100490",
@@ -6115,7 +6115,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100496",
@@ -6134,7 +6134,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100499",
@@ -6153,7 +6153,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100504",
@@ -6172,7 +6172,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100508",
@@ -6191,7 +6191,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100509",
@@ -6210,7 +6210,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100510",
@@ -6229,7 +6229,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100514",
@@ -6248,7 +6248,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100518",
@@ -6267,7 +6267,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100524",
@@ -6286,7 +6286,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100528",
@@ -6305,7 +6305,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100530",
@@ -6324,7 +6324,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100532",
@@ -6343,7 +6343,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100534",
@@ -6362,7 +6362,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100547",
@@ -6381,7 +6381,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100554",
@@ -6400,7 +6400,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100555",
@@ -6419,7 +6419,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100556",
@@ -6438,7 +6438,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100558",
@@ -6457,7 +6457,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100567",
@@ -6476,7 +6476,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100570",
@@ -6495,7 +6495,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100572",
@@ -6514,7 +6514,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100574",
@@ -6533,7 +6533,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100577",
@@ -6552,7 +6552,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100580",
@@ -6571,7 +6571,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100583",
@@ -6590,7 +6590,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100590",
@@ -6609,7 +6609,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100592",
@@ -6628,7 +6628,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100594",
@@ -6647,7 +6647,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100599",
@@ -6666,7 +6666,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100605",
@@ -6685,7 +6685,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100611",
@@ -6704,7 +6704,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100624",
@@ -6723,7 +6723,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100626",
@@ -6742,7 +6742,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100628",
@@ -6761,7 +6761,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100629",
@@ -6780,7 +6780,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100640",
@@ -6799,7 +6799,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100644",
@@ -6818,7 +6818,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100647",
@@ -6837,7 +6837,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100652",
@@ -6856,7 +6856,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100654",
@@ -6875,7 +6875,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100669",
@@ -6894,7 +6894,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100678",
@@ -6913,7 +6913,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100679",
@@ -6932,7 +6932,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100680",
@@ -6951,7 +6951,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100685",
@@ -6970,7 +6970,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100687",
@@ -6989,7 +6989,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100688",
@@ -7008,7 +7008,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100690",
@@ -7027,7 +7027,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100693",
@@ -7046,7 +7046,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100698",
@@ -7065,7 +7065,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100705",
@@ -7084,7 +7084,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100710",
@@ -7103,7 +7103,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100712",
@@ -7122,7 +7122,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100713",
@@ -7141,7 +7141,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100732",
@@ -7160,7 +7160,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100734",
@@ -7179,7 +7179,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100739",
@@ -7198,7 +7198,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100757",
@@ -7217,7 +7217,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100776",
@@ -7236,7 +7236,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100787",
@@ -7255,7 +7255,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100790",
@@ -7274,7 +7274,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100808",
@@ -7293,7 +7293,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100816",
@@ -7312,7 +7312,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100824",
@@ -7331,7 +7331,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100828",
@@ -7350,7 +7350,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100846",
@@ -7369,7 +7369,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100880",
@@ -7388,7 +7388,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100886",
@@ -7407,7 +7407,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100892",
@@ -7426,7 +7426,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100903",
@@ -7445,7 +7445,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100911",
@@ -7464,7 +7464,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100938",
@@ -7483,7 +7483,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100945",
@@ -7502,7 +7502,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100950",
@@ -7521,7 +7521,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2026-06-30",
         "status": 0,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100953",
@@ -7540,7 +7540,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100960",
@@ -7559,7 +7559,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2024-06-30",
         "status": 1,
-        "member": "Gold"
+        "member": true
     },
     {
         "userId": "USR-100965",
@@ -7578,7 +7578,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2027-06-30",
         "status": 0,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100972",
@@ -7597,7 +7597,7 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100974",
@@ -7616,7 +7616,7 @@
         "hasWaiver": false,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     },
     {
         "userId": "USR-100975",
@@ -7635,6 +7635,6 @@
         "hasWaiver": true,
         "waiverExpirationDate": "2025-06-30",
         "status": 1,
-        "member": "Silver"
+        "member": false
     }
 ]

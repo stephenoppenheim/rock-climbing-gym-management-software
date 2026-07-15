@@ -1,0 +1,9 @@
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.required {
+    color: red;
+}

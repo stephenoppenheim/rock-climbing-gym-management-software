@@ -2,8 +2,3 @@
     display: flex;
     flex-direction: column;
 }
-
-.sign-in-form label {
-    display: flex;
-    flex-direction: column;
-}
