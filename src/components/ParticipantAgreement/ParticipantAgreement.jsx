@@ -43,7 +43,7 @@ const ParticipantAgreement = () => {
         }
 
         const { birthYear, birthMonth, birthDate: birthDay, ...restOfForm } = formData;
-        const newDoc = { ...restOfForm, birthDate: `${birthYear}-${birthMonth}-${birthDay}` };
+        const newDoc = { ...restOfForm, birthDate: `${birthYear}-${birthMonth}-${birthDay}`, type: "waiver", pendingId: crypto.randomUUID() };
 
         updatePendingDocuments(prevDocs => [...prevDocs, newDoc]);
         navigate("/");
