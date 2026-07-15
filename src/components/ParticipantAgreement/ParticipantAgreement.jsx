@@ -1,20 +1,21 @@
 
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import Button from "../Button/Button";
 import Signature from "../Signature/Signature";
 import "./ParticipantAgreement.css";
 import { useNavigate } from "react-router";
+import { DocumentContext } from "../Context/DocumentContext";
 
 const ParticipantAgreement = () => {
 
     const formData = JSON.parse(sessionStorage.getItem("formData") || {});
-    console.log("formData", formData)
 
     const navigate = useNavigate();
     const required = ["firstName", "lastName", "birthMonth", "birthDate", "birthYear", "addressLine1", "city", "state", "zipCode", "email", "phoneNumber", "eName", "ePhoneNumber"];
 
     useEffect(() => { required.some(key => formData[key] === "") && navigate("/") }, []);
 
+    const { pendingDocuments, updatePendingDocuments } = useContext(DocumentContext);
     const [initialState, updateInitialState] = useState(null);
     const [signatureState, updateSignatureState] = useState(null);
     const [initialVisibility, updateInitialVisibility] = useState("absent");
@@ -31,6 +32,7 @@ const ParticipantAgreement = () => {
     const { firstName, middleName, lastName } = formData;
     const fullName = [firstName, middleName, lastName].filter(Boolean).join(" ");
 
+
     const handleSubmit = () => {
 
         const scrollTo = !initialState ? initialRef : !signatureState ? signatureRef : !hasConsented ? checkRef : null;
@@ -40,8 +42,11 @@ const ParticipantAgreement = () => {
             return;
         }
 
-        
+        const { birthYear, birthMonth, birthDate: birthDay, ...restOfForm } = formData;
+        const newDoc = { ...restOfForm, birthDate: `${birthYear}-${birthMonth}-${birthDay}` };
 
+        updatePendingDocuments(prevDocs => [...prevDocs, newDoc]);
+        navigate("/");
     }
 
 
@@ -190,11 +195,11 @@ const ParticipantAgreement = () => {
                 <h5>ACKNOWLEDGEMENT</h5>
                 <p>I acknowledge, for myself and any minor child or children on whose behalf I have signed the Movement Climbing, Yoga, & Fitness (“Climbing Gym”) Waiver, Release Of Liability And Assumption Of Risks form (“Release”) or, if applicable, the Movement Climbing, Yoga & Fitness Assumption of Risks and Indemnification (“Assumption of Risks”), that: (a) I have read the Release or Assumption of Risks and I fully understand all of the terms of the Release or Assumption of Risks; (b) I agree that nothing in the Bouldering Orientation, Facility Orientation, or Texas, Pennsylvania and New York Facility Orientation unto which this Acknowledgment is attached shall be construed to alter, modify, or extinguish any element of the Release or Assumption of Risks, or any agreement made by me thereunder; (c) I understand that I or such minor child or children identified as the “Participant” on the Release or Assumption of Risks require orientation and/or training before participating in climbing and bouldering activities in an Climbing Gym facility; (d) I understand that Climbing Gym may require me to pass an assessment or assessments prior to allowing me or such Participant to participate in certain activities; (e) I understand that if I or such Participant need(s) additional assistance, orientation, instruction, training or assessment during my or such Participant’s participation at an Climbing Gym facility at any future time, then it is my responsibility to seek such assistance, orientation, instruction, training or assessment from the Climbing Gym staff prior to participating in any activity for which I am not, or such Participant is not, trained or qualified; and (f) my signature indicates that I understand the information and acknowledgments set forth above.</p>
                 {signatureState && <img className="participantagreement-sig" src={signatureState}/>}
-                <div ref={signatureRef}><Button ref={signatureRef} text={signatureState ? "Edit Signature" : "Click to Sign"} onClick={() => viewPad(updateSignatureVisibility)} /></div>
+                <div ref={signatureRef}><Button text={signatureState ? "Edit Signature" : "Click to Sign"} onClick={() => viewPad(updateSignatureVisibility)} /></div>
                 <Signature 
                     label="Signature"
                     updateState={updateSignatureState}
-                    updateVisibility={updateInitialVisibility}
+                    updateVisibility={updateSignatureVisibility}
                     absent={signatureVisibility}
                 />
                 <p>{fullName}</p>

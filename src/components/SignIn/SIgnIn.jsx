@@ -5,7 +5,6 @@ import { NavLink, useNavigate } from 'react-router';
 import loginData from "../../assets/login-data.json";
 import './SignIn.css';
 
-
 const SignIn = () => {
 
     const navigate = useNavigate();
