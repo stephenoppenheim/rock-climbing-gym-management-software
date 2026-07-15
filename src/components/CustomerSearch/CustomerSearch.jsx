@@ -8,11 +8,11 @@ import Fuse from "fuse.js";
 import { CheckInContext } from "../Context/CheckInContext";
 import Table from "../Table/Table";
 import Button from "../Button/Button";
-import { ToastContext } from "../Context/ToastContext";
+import { AlertContext } from "../Context/AlertContext";
 
 const CustomerSearch = ({ type, stateUpdaters }) => {
 
-    const { updateToastData } = useContext(ToastContext)
+    const { updateAlertData } = useContext(AlertContext)
     const { checkInState, updateCheckInData } = useContext(CheckInContext);
     const [query, updateQuery] = useState("");
 
@@ -32,7 +32,7 @@ const CustomerSearch = ({ type, stateUpdaters }) => {
 
         updateQuery("");
         
-        if (checkInState.some(customer => customer.userId === userId)) return updateToastData({ isVisible: true, message: "Customer has already been checked in" });
+        if (checkInState.some(customer => customer.userId === userId)) return updateAlertData({ isVisible: true, message: "Customer has already been checked in" });
         const climber = customerData.find((customer) => customer.userId === userId);
 
         const newCheckInData = {

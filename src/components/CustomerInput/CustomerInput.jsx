@@ -57,7 +57,7 @@ const CustomerInput = () => {
     const yearArr = Array.from({ length: curYear - 1900 }, (_, i) => String(curYear - i));
 
     return (
-        <form>
+        <form className="customerinput">
             <fieldset>
                 <Input label="First Name" name="firstName" value={formData.firstName} onChange={handleChange} type="text" required />
                 <Input label="Middle Name" name="middleName" value={formData.middleName} onChange={handleChange} type="text" />

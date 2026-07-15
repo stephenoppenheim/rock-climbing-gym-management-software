@@ -19,8 +19,8 @@ import { useContext, useState } from 'react';
 import ParticipantAgreement from './components/ParticipantAgreement/ParticipantAgreement.jsx';
 import CustomerInput from './components/CustomerInput/CustomerInput.jsx';
 import { DocumentProvider } from './components/Context/DocumentContext.jsx';
-import { ToastContext, ToastProvider } from './components/Context/ToastContext.jsx';
-import Toast from './components/Toast/Toast.jsx';
+import { AlertContext, AlertProvider } from './components/Context/AlertContext.jsx';
+import Alert from './components/Alert/Alert.jsx';
 
 
 
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <ToastProvider >
+      <AlertProvider >
         <DocumentProvider>
           <CheckInProvider>
             <Routes>
@@ -50,10 +50,10 @@ function App() {
                 <Route path="calendar" element={<Calendar />} />
               </Route>
             </Routes>
-            <Toast />
+            <Alert />
           </CheckInProvider>
         </DocumentProvider>
-      </ToastProvider>
+      </AlertProvider>
     </>
   )
 }

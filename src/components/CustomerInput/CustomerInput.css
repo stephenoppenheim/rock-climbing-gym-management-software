@@ -1,1 +1,8 @@
 
+.customerinput fieldset:first-of-type {
+    display: flex;
+}
+
+.customerinput fieldset:first-of-type .input {
+    flex-grow: 1;
+}

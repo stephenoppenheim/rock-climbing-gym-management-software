@@ -3,11 +3,11 @@ import { useContext, useRef } from "react";
 import "./Signature.css";
 import SignatureCanvas from "react-signature-canvas";
 import Button from "../Button/Button";
-import { ToastContext } from "../Context/ToastContext";
+import { AlertContext } from "../Context/AlertContext";
 
 const Signature = ({ label, updateState, updateVisibility, absent}) => {
 
-    const { toastData, updateToastData } = useContext(ToastContext);
+    const { alertData, updateAlertData } = useContext(AlertContext);
     const signatureRef = useRef(null);
 
     const closeSignature = () => {
@@ -18,7 +18,7 @@ const Signature = ({ label, updateState, updateVisibility, absent}) => {
     const saveSignature = () => {
 
         if (signatureRef.current.isEmpty()) {
-            return updateToastData({ isVisible: true, message: "Signature cannot be empty" });
+            return updateAlertData({ isVisible: true, message: "Signature cannot be empty" });
         }
 
         const signatureUrl = signatureRef.current.toDataURL("image/png");

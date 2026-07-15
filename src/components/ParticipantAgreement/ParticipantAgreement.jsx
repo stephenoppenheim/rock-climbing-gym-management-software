@@ -30,8 +30,7 @@ const ParticipantAgreement = () => {
     }
 
     const { firstName, middleName, lastName } = formData;
-    const fullName = [firstName, middleName, lastName].filter(Boolean).join(" ");
-
+    const fullName = [firstName, middleName, lastName].map(name => name && name.trim()).filter(Boolean).join(" ");
 
     const handleSubmit = () => {
 
@@ -43,12 +42,17 @@ const ParticipantAgreement = () => {
         }
 
         const { birthYear, birthMonth, birthDate: birthDay, ...restOfForm } = formData;
-        const newDoc = { ...restOfForm, birthDate: `${birthYear}-${birthMonth}-${birthDay}`, type: "waiver", pendingId: crypto.randomUUID() };
+        const newDoc = { 
+            ...restOfForm, 
+            birthDate: `${birthYear}-${birthMonth}-${birthDay}`,
+            type: "Waiver",
+            pendingId: crypto.randomUUID(),
+            dateTime: new Date().toISOString()
+        };
 
         updatePendingDocuments(prevDocs => [...prevDocs, newDoc]);
         navigate("/");
     }
-
 
     return (
         <section>
