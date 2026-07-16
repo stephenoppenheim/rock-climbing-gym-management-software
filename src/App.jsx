@@ -2,9 +2,9 @@
 import './App.css';
 import PublicHeader from './components/Headers/PublicHeader/PublicHeader';
 import AppHeader from './components/Headers/AppHeader/AppHeader';
-import SignInPage from './components/Pages/SignInPage';
+import SignInPage from './components/Pages/SigninPage/SignInPage.jsx';
 import SignIn from './components/SignIn/SignIn.jsx';
-import DashboardPage from './components/Pages/DashboardPage.jsx';
+import DashboardPage from './components/Pages/DashboardPage/DashboardPage.jsx';
 import { Routes, Route, Navigate } from 'react-router';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
 import CheckIn from './components/CheckIn/CheckIn.jsx';

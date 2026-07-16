@@ -23,18 +23,21 @@ const SignIn = () => {
     }
 
     return (
-        <section>
-            <h2>SIGN IN</h2>
-            <form className="sign-in-form" onSubmit={handleSubmit}>
-                <Input label="EMAIL" type="email" name="email" required bypassAsterisk />
-                <Input label="PASSWORD" type="password" name="password" required bypassAsterisk />
-                <NavLink to="reset-password" end>Forgot password?</NavLink>
-                <Button type="submit" text="Sign In" />
-            </form>
-            <section>
-                <p>New to Summit Pro?</p>
-                <p><NavLink to="create-account" end>Create an account</NavLink> or <NavLink to="user-info" end>Fill out a waiver</NavLink></p>
-            </section>
+        <section className="signin">
+            <div>
+                <h2>SIGN IN</h2>
+                <form className="signin-form" onSubmit={handleSubmit}>
+                    <Input label="EMAIL" type="email" name="email" required bypassAsterisk />
+                    <Input label="PASSWORD" type="password" name="password" required bypassAsterisk />
+                    <NavLink to="reset-password" end>Forgot password?</NavLink>
+                    <Button type="submit" text="Sign In" />
+                </form>
+                <hr />
+                <section>
+                    <p>New to Summit Pro?</p>
+                    <p><NavLink to="create-account" end>Create an account</NavLink> or <NavLink to="user-info" end>Fill out a waiver</NavLink></p>
+                </section>
+            </div>
         </section>
     )
 }

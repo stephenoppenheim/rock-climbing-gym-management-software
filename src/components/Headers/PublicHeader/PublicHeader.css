@@ -1,12 +1,54 @@
-
-.public-header-sign-in-branding {
+.publicheader {
+    width: 50%;
     display: flex;
-    align-items: center;
-    font-size: 12px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.public-header-sign-in-branding img {
-    height: 40px;
+.publicheader-bg-img {
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    opacity: .48;
+    object-fit: cover;
+}
+
+.publicheader-sign-in-branding {
+    display: flex;
+    align-items: center;
+    font-size: .75rem;
+    margin: 40px;
+    letter-spacing: 3px;
+}
+
+.publicheader-sign-in-branding img {
+    height: 35px;
     margin-right: 10px;
 }
 
+.publicheader-bottom-text {
+    margin: 40px;
+}
+
+.publicheader-slogan-container h3 {
+    font-size: clamp(40px, 4vw, 56px);
+    line-height: 1;
+}
+
+.publicheader-sign-in-branding,
+.publicheader-slogan-container {
+    position: relative;
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+}
+
+.publicheader-description-container {
+    position: relative;
+    z-index: 100;
+    color: #98989c;
+    font-size: .875rem;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 15px;
+    line-height: 1.5;
+}
