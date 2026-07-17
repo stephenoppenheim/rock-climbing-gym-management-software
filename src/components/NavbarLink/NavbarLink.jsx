@@ -4,7 +4,7 @@ import "./NavbarLink.css";
 
 const NavbarLink = ({ imgUrl, path, label, end}) => {
     return (
-        <li className="navbarlink-list">
+        <li className="navbarlink">
             <img src={imgUrl} />
             <NavLink to={path} end={end}>{label}</NavLink>
         </li>

@@ -13,7 +13,9 @@
         "state": "MO",
         "zipCode": "63119",
         "country": "USA",
-        "email": "brooke.r@example.com"
+        "email": "brooke.r@example.com",
+        "type": "Waiver",
+        "dateTime": "2026-07-04T14:32:10.123Z"
     },
     {
         "pendingId": "fc7cb15a-7e12-47b7-bb08-6b9cf3a168dd",
@@ -28,6 +30,8 @@
         "state": "MO",
         "zipCode": "63141",
         "country": "USA",
-        "email": "julia.c@example.com"
+        "email": "julia.c@example.com",
+        "type": "Waiver",
+        "dateTime": "2026-07-12T09:15:45.456Z"
     }
 ]

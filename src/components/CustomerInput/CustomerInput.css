@@ -1,1 +1,26 @@
 
+.customerinput {
+    height: 100%;
+    overflow: scroll;
+    color: white;
+}
+
+.customerinput fieldset:first-of-type {
+    display: flex;
+}
+
+.customerinput fieldset:first-of-type .input {
+    flex-grow: 1;
+}
+
+.customerinput .input input {
+    color: #F1EDE9;
+    background-color:#242428;
+    border: 1px solid #48484E;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.customerinput .input {
+    max-width: 90%;
+}

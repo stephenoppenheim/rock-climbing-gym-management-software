@@ -1,0 +1,26 @@
+
+.documentcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 17px;
+}
+
+.documentcard:not(:last-child) {
+    border-bottom: 1px solid black
+}
+
+.documentcard h3, .documentcard h4 {
+    font-size: 1em;
+}
+
+.documentcard-time-button {
+    display: flex;
+    align-items: center;
+}
+
+.documentcard-time-button button {
+    border-radius: 5px;
+    padding: 2px 7px;
+    margin-left: 10px;
+}

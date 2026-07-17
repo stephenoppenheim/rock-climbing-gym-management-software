@@ -1,0 +1,14 @@
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;;
+    position: fixed;
+    background-color: white;
+    border: 1px solid black;
+    inset-inline: 0;
+    margin-inline: auto;
+    align-self: center;
+    width: 200px;
+}

@@ -1,4 +1,93 @@
-.sign-in-form {
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.signin div {
+    width: 400px;
+    max-width: 90%;
+}
+
+.signin hr {
+    border-color: #48484E;
+    height: 1px;
+    background-color: #48484E;
+    margin: 35px 0 26px 0;
+}
+
+.signin-form {
     display: flex;
     flex-direction: column;
+}
+
+.signin-form a {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.signin > div > h2 {
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 2.6rem;
+    margin-bottom: 20px
+}
+
+.signin .input input, .signin button {
+    height: 45px;
+    border-radius: 6px;
+}
+
+.signin .input input {
+    color: #F1EDE9;
+    background-color:#242428;
+    border: 1px solid #48484E;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.signin .input input:focus {
+    outline: none;
+    border: 2px solid #E8550A;
+    padding: 14px;
+}
+
+.signin button {
+    font-family: "DM Sans Reg", sans-serif;
+    font-size: 1rem;
+    color: #F1EDE9;
+    background-color: #E8550A;
+    border: none;
+}
+
+.signin .input, .signin p {
+    color: #98989c;
+    font-size: .9rem;
+}
+
+.signin .input, .signin p, .signin a {
+    font-family: "DM Sans", sans-serif;
+    
+}
+
+.signin a {
+    color: #E8540B;
+    text-decoration: none;
+    font-size: .92rem;
+}
+
+.signin a:visited {
+    color: #E8540B;
+}
+
+.signin a:active {
+    color: #E8540B;
+}
+
+.signin section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
