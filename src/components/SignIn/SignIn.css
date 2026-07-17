@@ -6,7 +6,7 @@
     height: 100%;
 }
 
-.signin div {
+.signin div:not(.signin-forgot-container) {
     width: 400px;
     max-width: 90%;
 }
@@ -21,11 +21,6 @@
 .signin-form {
     display: flex;
     flex-direction: column;
-}
-
-.signin-form a {
-    align-self: flex-end;
-    margin-bottom: 20px;
 }
 
 .signin > div > h2 {
@@ -90,4 +85,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.signin-forgot-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.signin-forgot-container p {
+    color: black;
+    position: absolute;
+    right: 121px;
+    bottom: 18px;
+    width: 179px;
+    background-color: white;
+    padding: 2px 7px;
+    border-radius: 10px;
+    display: none;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.signin-visible {
+    opacity: .8 !important;
+} 
+
+.signin-display {
+    display: block !important;
 }
