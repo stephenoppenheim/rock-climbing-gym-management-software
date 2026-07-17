@@ -4,10 +4,24 @@ import Input from '../Input/Input';
 import { NavLink, useNavigate } from 'react-router';
 import loginData from "../../assets/login-data.json";
 import './SignIn.css';
+import { useRef, useState } from 'react';
 
 const SignIn = () => {
 
     const navigate = useNavigate();
+    const hint = useRef(null);
+    const hintTimer = useRef(null);
+    const hintDisplayTimer = useRef(null);
+
+    const showHint = () => {
+        console.log(hint.current)
+        hint.current.classList.add("signin-display");
+        hint.current.classList.add("signin-visible");
+        if (hintTimer.current) clearTimeout(hintTimer.current);
+        if (hintDisplayTimer.current) clearTimeout(hintDisplayTimer.current);
+        hintTimer.current = setTimeout(() => hint.current.classList.remove("signin-visible"), 5000);
+        hintDisplayTimer.current = setTimeout(() => hint.current.classList.remove("signin-display"), 5300);
+    }
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -24,18 +38,21 @@ const SignIn = () => {
 
     return (
         <section className="signin">
-            <div className="shell">
+            <div>
                 <h2>SIGN IN</h2>
                 <form className="signin-form" onSubmit={handleSubmit}>
-                    <Input classes="input-width-full" label="EMAIL" type="email" name="email" required bypassAsterisk />
-                    <Input classes="input-width-full" label="PASSWORD" type="password" name="password" required bypassAsterisk />
-                    <NavLink to="reset-password" end>Forgot password?</NavLink>
+                    <Input label="EMAIL" type="email" name="email" required bypassAsterisk />
+                    <Input label="PASSWORD" type="password" name="password" required bypassAsterisk />
+                    <div className="signin-forgot-container">
+                        <p ref={hint}>Email: test@test.com<br />Password: testpassword</p>
+                        <NavLink onClick={showHint} end>Forgot password?</NavLink>
+                    </div>
                     <Button type="submit" text="Sign In" />
                 </form>
                 <hr />
                 <section>
                     <p>New to Summit Pro?</p>
-                    <p><NavLink to="create-account" end>Create an account</NavLink> or <NavLink to="user-info" end>Fill out a waiver</NavLink></p>
+                    <p><NavLink to="user-info" end>Fill out a waiver</NavLink></p>
                 </section>
             </div>
         </section>
