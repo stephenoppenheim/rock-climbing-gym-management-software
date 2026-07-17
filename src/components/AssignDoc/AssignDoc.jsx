@@ -21,8 +21,17 @@ const AssignDoc = ({ doc, updateCurDoc }) => {
                     <p>{`${birthMonth}-${birthDate}-${birthYear}`}</p>
                 </div>
             </header>
-            {!recordSelected && <PendingSearch updateRecordSelected={updateRecordSelected} />}
-            {recordSelected && <PendingAssign type={doc.type} doc={doc} record={recordSelected} updateRecordSelected={updateRecordSelected} updateCurDoc={updateCurDoc} />}
+            {!recordSelected && <PendingSearch 
+                                    updateRecordSelected={updateRecordSelected}
+                                    doc={doc}
+                                    updateCurDoc={updateCurDoc}
+                                />}
+            {recordSelected && <PendingAssign
+                                   doc={doc}
+                                   record={recordSelected}
+                                   updateRecordSelected={updateRecordSelected}
+                                   updateCurDoc={updateCurDoc}
+                               />}
         </article>
     )
 }

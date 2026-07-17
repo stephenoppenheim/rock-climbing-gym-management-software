@@ -38,7 +38,7 @@ const CustomerSearch = ({ type, stateUpdaters }) => {
 
         const newCheckInData = {
             userId,
-            checkInId: self.crypto.randomUUID(),
+            checkInId: crypto.randomUUID(),
             firstName: climber.firstName,
             middleName: climber.middleName,
             lastName: climber.lastName,

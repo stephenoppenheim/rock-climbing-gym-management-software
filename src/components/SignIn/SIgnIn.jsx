@@ -24,11 +24,11 @@ const SignIn = () => {
 
     return (
         <section className="signin">
-            <div>
+            <div className="shell">
                 <h2>SIGN IN</h2>
                 <form className="signin-form" onSubmit={handleSubmit}>
-                    <Input label="EMAIL" type="email" name="email" required bypassAsterisk />
-                    <Input label="PASSWORD" type="password" name="password" required bypassAsterisk />
+                    <Input classes="input-width-full" label="EMAIL" type="email" name="email" required bypassAsterisk />
+                    <Input classes="input-width-full" label="PASSWORD" type="password" name="password" required bypassAsterisk />
                     <NavLink to="reset-password" end>Forgot password?</NavLink>
                     <Button type="submit" text="Sign In" />
                 </form>
