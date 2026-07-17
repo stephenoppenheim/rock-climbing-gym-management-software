@@ -30,7 +30,7 @@ const ParticipantAgreement = () => {
     }
 
     const { firstName, middleName, lastName } = formData;
-    const fullName = [firstName, middleName, lastName].map(name => name && name.trim()).filter(Boolean).join(" ");
+    const fullName = [firstName, middleName, lastName].map(name => name.trim()).filter(Boolean).join(" ");
 
     const handleSubmit = () => {
 

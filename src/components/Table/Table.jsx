@@ -2,6 +2,7 @@
 import "./Table.css";
 
 const Table = ({ headers, tableData, tableDataMap, btnText = null, onClick = null, onClickArgs = null }) => {
+    console.log("TEST", headers)
     return (
         <table>
             <thead>

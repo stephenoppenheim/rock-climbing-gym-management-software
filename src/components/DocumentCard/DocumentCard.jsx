@@ -2,10 +2,10 @@
 import Button from "../Button/Button";
 import "./DocumentCard.css";
 
-const DocumentCard = ({ docData }) => {
+const DocumentCard = ({ docData, updateCurDoc }) => {
 
     const { firstName, middleName, lastName } = docData;
-    const fullName = [firstName, middleName, lastName].filter(Boolean).join(" ");
+    const fullName = [firstName, middleName, lastName].map(name => name.trim()).filter(Boolean).join(" ");
     const docDate = new Date(docData.dateTime);
     const isToday = new Date().toLocaleDateString("en-US") === docDate.toLocaleDateString("en-US");
     const dateTimeOptions = isToday ? { hour: "2-digit", minute: "2-digit" } : { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" };
@@ -19,7 +19,7 @@ const DocumentCard = ({ docData }) => {
             </div>
             <div className="documentcard-time-button">
                 <p>{localDateTime}</p>
-                <Button text="Attach to Record" />
+                <Button text="Attach to Record" onClick={() => updateCurDoc(docData)} />
             </div>
         </article>
     )

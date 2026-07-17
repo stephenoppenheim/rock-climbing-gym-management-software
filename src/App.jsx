@@ -21,6 +21,7 @@ import CustomerInput from './components/CustomerInput/CustomerInput.jsx';
 import { DocumentProvider } from './components/Context/DocumentContext.jsx';
 import { AlertContext, AlertProvider } from './components/Context/AlertContext.jsx';
 import Alert from './components/Alert/Alert.jsx';
+import { CustomerProvider } from './components/Context/ClimberContext.jsx';
 
 
 
@@ -32,28 +33,30 @@ function App() {
 
   return (
     <>
-      <AlertProvider >
-        <DocumentProvider>
-          <CheckInProvider>
-            <Routes>
-              <Route path="/" element={<SignInPage />}>
-                <Route index element={<SignIn />} />
-                <Route path="user-info" element={<CustomerInput />} />
-                <Route path="agreement" element={<ParticipantAgreement />} />
-              </Route>
-              <Route path="/dashboard" element={<DashboardPage />}>
-                <Route index element={<Dashboard criticalIssueState={criticalIssueState} />} />
-                <Route path="checkin" element={<CheckIn />} />
-                <Route path="climbers" element={<Climbers />} />
-                <Route path="pointofsale" element={<PointOfSale />} />
-                <Route path="documents" element={<PendingDocuments />} />
-                <Route path="calendar" element={<Calendar />} />
-              </Route>
-            </Routes>
-            <Alert />
-          </CheckInProvider>
-        </DocumentProvider>
-      </AlertProvider>
+      <CustomerProvider>
+        <AlertProvider >
+          <DocumentProvider>
+            <CheckInProvider>
+              <Routes>
+                <Route path="/" element={<SignInPage />}>
+                  <Route index element={<SignIn />} />
+                  <Route path="user-info" element={<CustomerInput />} />
+                  <Route path="agreement" element={<ParticipantAgreement />} />
+                </Route>
+                <Route path="/dashboard" element={<DashboardPage />}>
+                  <Route index element={<Dashboard criticalIssueState={criticalIssueState} />} />
+                  <Route path="checkin" element={<CheckIn />} />
+                  <Route path="climbers" element={<Climbers />} />
+                  <Route path="pointofsale" element={<PointOfSale />} />
+                  <Route path="documents" element={<PendingDocuments />} />
+                  <Route path="calendar" element={<Calendar />} />
+                </Route>
+              </Routes>
+              <Alert />
+            </CheckInProvider>
+          </DocumentProvider>
+        </AlertProvider>
+      </CustomerProvider>
     </>
   )
 }

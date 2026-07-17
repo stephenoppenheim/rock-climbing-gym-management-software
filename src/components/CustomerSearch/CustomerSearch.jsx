@@ -1,7 +1,6 @@
 
 import { useContext, useState } from "react";
 import Input from "../Input/Input";
-import customerData from "../../assets/customer-data.json";
 import issueList from "../../assets/issue-list.json";
 import "./CustomerSearch.css";
 import Fuse from "fuse.js";
@@ -9,14 +8,16 @@ import { CheckInContext } from "../Context/CheckInContext";
 import Table from "../Table/Table";
 import Button from "../Button/Button";
 import { AlertContext } from "../Context/AlertContext";
+import { CustomerContext } from "../Context/ClimberContext";
 
 const CustomerSearch = ({ type, stateUpdaters }) => {
 
     const { updateAlertData } = useContext(AlertContext)
+    const { customerDataState, updateCustomerDataState } = useContext(CustomerContext);
     const { checkInState, updateCheckInData } = useContext(CheckInContext);
     const [query, updateQuery] = useState("");
 
-    const fuse = new Fuse(customerData, {
+    const fuse = new Fuse(customerDataState, {
         keys: ["firstName", "lastName", "phoneNumber", "email"],
         threshold: .25,
         findAllMatches: true,
@@ -33,7 +34,7 @@ const CustomerSearch = ({ type, stateUpdaters }) => {
         updateQuery("");
         
         if (checkInState.some(customer => customer.userId === userId)) return updateAlertData({ isVisible: true, message: "Customer has already been checked in" });
-        const climber = customerData.find((customer) => customer.userId === userId);
+        const climber = customerDataState.find((customer) => customer.userId === userId);
 
         const newCheckInData = {
             userId,
@@ -50,7 +51,7 @@ const CustomerSearch = ({ type, stateUpdaters }) => {
     }
 
     const openClimberRecord = (userId, updateCurClimber, updateClimberVisible) => {
-        const climber = customerData.find((customer) => customer.userId === userId);
+        const climber = customerDataState.find((customer) => customer.userId === userId);
         stateUpdaters.updateCurClimber(climber);
         stateUpdaters.updateClimberVisible(true);
     }
@@ -74,6 +75,8 @@ const CustomerSearch = ({ type, stateUpdaters }) => {
             onClick: openClimberRecord
         }
     }
+
+    console.log("TB", type)
 
     return (
         <>

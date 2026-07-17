@@ -1,20 +1,22 @@
 
 import "./PendingDocuments.css";
 import DocumentCard from "../DocumentCard/DocumentCard";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { DocumentContext } from "../Context/DocumentContext";
+import AssignDoc from "../AssignDoc/AssignDoc";
 
 const PendingDocuments = () => {
 
     const { pendingDocuments, updatePendingDocuments } = useContext(DocumentContext);
+    const [curDoc, updateCurDoc] = useState("");
 
     return (
         <>
             <h3>Pending Documents</h3>
             <section className="pendingdocuments-section">
-                {pendingDocuments.map((docData, i) => <DocumentCard key={docData.pendingId} docData={docData} />)}
+                {pendingDocuments.map((docData, i) => <DocumentCard id={docData.pendingId} key={docData.pendingId} docData={docData} updateCurDoc={updateCurDoc}/>)}
             </section>
-            
+            {curDoc && <AssignDoc doc={curDoc} updateCurDoc={updateCurDoc} />}
         </>
     )
 }
