@@ -2,7 +2,7 @@
 import { Outlet } from "react-router";
 import PublicHeader from "../../Headers/PublicHeader/PublicHeader";
 import SignIn from "../../SignIn/SignIn";
-import "./SigninPage.css";
+import "./SignInPage.css";
 
 const SignInPage = () => {
     return (

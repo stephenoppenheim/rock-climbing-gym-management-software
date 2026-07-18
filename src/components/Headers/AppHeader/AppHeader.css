@@ -5,24 +5,32 @@
     width: 200px;
     height: 100%;
     background-color: var(--bg-black);
+    font-family: "DM Sans", sans-serif;
 }
 
 .appheader-sign-in-branding {
     display: flex;
     align-items: center;
     font-size: 12px;
+    padding: 10px
 }
 
 .appheader-sign-in-branding img {
-    height: 40px;
+    height: 30px;
     margin-right: 10px;
 }
 
-.appheader ul img {
-    height: 40px;
+.appheader-sign-in-branding h1 {
+    font-family: "DM Sans", sans-serif;
+    color: var(--off-white);
+    font-size: .87rem;
 }
 
-
+.appheader-sign-in-branding p {
+    font-family: "DM Sans", sans-serif;
+    color: var(--off-white);
+    font-size: .7rem;
+}
 
 .appheader nav {
     flex-grow: 1;
@@ -32,24 +40,19 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: "DM Sans"
-}
-
-.appheader nav ul li:last-child {
-    margin-top: auto;
+    padding: 5px;
+    border-width: .5px .5px 0 0;
+    border-style: solid;
+    border-color: var(--grey)
 }
 
 .appheader-user {
     display: flex;
     align-items: center;
+    color: var(--off-white)
 }
 
 .appheader-user img {
     height: 40px;
 }
 
-.appheader a {
-    color: var(--light-grey);
-    text-decoration: none;
-    font-size: .85rem;
-}

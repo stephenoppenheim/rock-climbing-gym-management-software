@@ -10,15 +10,15 @@
 
     .signinpage {
         flex-direction: column;
-        justify-content: center;
     }
 
-    .signin {
-        align-items: normal;
+    .signinpage main {
+        min-height: 0;
     }
 
     .publicheader {
         width: 100%;
+        overflow: visible;
     }
 
     .publicheader-sign-in-branding {

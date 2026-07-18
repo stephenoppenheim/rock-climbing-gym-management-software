@@ -17,6 +17,11 @@ body {
   height: 100vh;
 }
 
+#root {
+  display: flex;
+  height: 100%;
+}
+
 .absent {
   display: none;
 }
