@@ -1,0 +1,19 @@
+
+.dashboardpage > h2 {
+    font-family: "DM Sans Bold", sans-serif;
+    color: var(--off-white);
+    border-bottom: .5px solid var(--grey);
+    background-color: var(--bg-black);
+    padding: 17.5px 20px 18px 20px;
+}
+
+.dashboardpage-spacer {
+    display: none;
+    width: 55px;
+}
+
+@media (max-width: 575px) {
+    .dashboardpage-spacer {
+        display: block;
+    }
+}

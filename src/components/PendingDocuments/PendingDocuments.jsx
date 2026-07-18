@@ -11,13 +11,12 @@ const PendingDocuments = () => {
     const [curDoc, updateCurDoc] = useState("");
 
     return (
-        <>
-            <h3>Pending Documents</h3>
+        <div>
             <section className="pendingdocuments-section">
                 {pendingDocuments.map((docData, i) => <DocumentCard id={docData.pendingId} key={docData.pendingId} docData={docData} updateCurDoc={updateCurDoc}/>)}
             </section>
             {curDoc && <AssignDoc doc={curDoc} updateCurDoc={updateCurDoc} />}
-        </>
+        </div>
     )
 }
 

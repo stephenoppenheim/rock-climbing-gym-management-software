@@ -2,12 +2,12 @@
 import { NavLink } from "react-router";
 import "./NavbarLink.css";
 
-const NavbarLink = ({ imgUrl, path, label, end, children }) => {
+const NavbarLink = ({ path, label, end, children }) => {
     return (
         <li className="navbarlink">
             <NavLink className="navlink" to={path} end={end}>
                 {children}
-                {label}
+                <span>{label}</span>
             </NavLink>
         </li>
     )

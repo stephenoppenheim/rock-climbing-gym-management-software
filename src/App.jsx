@@ -32,6 +32,8 @@ function App() {
   const isLoggedIn = false;
   const [criticalIssueState, updateCriticalIssueState] = useState(criticalIssueData);
 
+  window.addEventListener("resize", console.log(window.innerHeight, window.innerWidth))
+
   return (
     <>
       <CustomerProvider>

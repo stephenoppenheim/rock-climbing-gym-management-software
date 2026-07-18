@@ -10,11 +10,10 @@ const Climbers = () => {
     const [climberVisible, updateClimberVisible] = useState(false);
 
     return (
-        <>
-            <h3>Climbers</h3>
+        <div>
             <CustomerSearch type="climberSearch" stateUpdaters={{ updateCurClimber, updateClimberVisible }} />
             <CustomerRecord user={curClimber} />
-        </>
+        </div>
     )
 }
 

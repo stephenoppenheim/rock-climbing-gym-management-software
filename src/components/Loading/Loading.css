@@ -15,24 +15,31 @@
 }
 
 .loading-ring:nth-of-type(1) { 
-    border-color: red transparent;
-    width: 160px;
-    height: 160px;
+    border-color: var(--green) transparent;
+    width: 180px;
+    height: 180px;
     animation: loader 2.1s linear infinite;
 }
 
 .loading-ring:nth-of-type(2) {
-    border-color: lightskyblue transparent;
-    width: 140px;
-    height: 140px;
+    border-color: var(--red) transparent;
+    width: 160px;
+    height: 160px;
     animation: loader 1.5s linear infinite;
 }
 
 .loading-ring:nth-of-type(3) {
-    border-color: green transparent;
+    border-color: var(--yellow) transparent;
+    width: 140px;
+    height: 140px;
+    animation: loader 2.8s linear infinite;
+}
+
+.loading-ring:nth-of-type(4) {
+    border-color: var(--blue) transparent;
     width: 120px;
     height: 120px;
-    animation: loader 2.8s linear infinite;
+    animation: loader 1.8s linear infinite;
 }
 
 .loading h2 {

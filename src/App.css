@@ -4,3 +4,7 @@ main {
   container-type: inline-size;
   container-name: main-container;
 }
+
+main > div {
+  padding: 18px 20px;
+}

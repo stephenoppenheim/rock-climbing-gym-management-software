@@ -1,12 +1,14 @@
 
 import "./DashboardWidget.css";
 
-const DashboardWidget = ({ label, data, imgUrl, extraClasses }) => {
+const DashboardWidget = ({ label, data, imgUrl, extraClasses, children }) => {
     return (
         <section className={`dashboardwidget ${extraClasses}`}>
             <div>
-                <h3>{label}</h3>
-                <img src={imgUrl} alt="" />
+                <div>
+                    <h3>{label}</h3>
+                </div>
+                {children}
             </div>
             <p>{data}</p>
         </section>

@@ -1,4 +1,3 @@
-
 .appheader {
     display: flex;
     flex-direction: column;
@@ -6,13 +5,26 @@
     height: 100%;
     background-color: var(--bg-black);
     font-family: "DM Sans", sans-serif;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.appheader > div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 10px 17px 10px;
+
 }
 
 .appheader-sign-in-branding {
     display: flex;
     align-items: center;
     font-size: 12px;
-    padding: 10px
+    margin-right: 10px;
+
 }
 
 .appheader-sign-in-branding img {
@@ -41,7 +53,7 @@
     flex-direction: column;
     height: 100%;
     padding: 5px;
-    border-width: .5px .5px 0 0;
+    border-width: .5px .5px .5px 0;
     border-style: solid;
     border-color: var(--grey)
 }
@@ -49,10 +61,157 @@
 .appheader-user {
     display: flex;
     align-items: center;
+    padding: 10px;
+    border-right: 1px solid var(--grey)
+}
+
+.appheader-user h3 {
+    font-size: .87rem;
     color: var(--off-white)
 }
 
-.appheader-user img {
-    height: 40px;
+.appheader-user p {
+    font-size: .8rem;
+    color: var(--light-grey);
+    font-family: monospace;
 }
 
+@media (max-width: 575px) {
+
+    .appheader {
+        position: absolute;
+        left: 0;
+        overflow: hidden;
+        width: 55px;
+    }
+
+    .appheader nav ul {
+        border-bottom: none;
+    }
+
+    .appheader .navlink span {
+        margin-left: 10px;
+    }
+
+    .appheader-top {
+        right: 126px;
+    }
+
+    .appheader-top > .hamburger {
+        margin-left: 5px
+    }
+
+    .appheader-user * {
+        opacity: 0;
+    }
+
+    
+}
+
+@keyframes appheader-to-open {
+    0% {
+        width: 55px
+    }
+
+    100% {
+        width: 200px
+    }
+}
+
+@keyframes appheader-to-closed {
+    0% {
+        width: 200px
+    }
+
+    100% {
+        width: 55px
+    }
+}
+
+@keyframes navlink-to-open {
+    0% {
+        margin-left: 10px
+    }
+
+    100% {
+        margin-left: 0px
+    }
+}
+
+@keyframes navlink-to-closed {
+    0% {
+        margin-left: 0px
+    }
+
+    100% {
+        margin-left: 10px
+    }
+}
+
+@keyframes hamlogo-to-open {
+    0% {
+        right: 126px;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes hamlogo-to-closed {
+    0% {
+        right: 0;
+    }
+    100% {
+        right: 126px;
+    }
+}
+
+@keyframes burger-to-open {
+    0% {
+        margin-left: 5px;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes burger-to-closed {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 5px;
+    }
+}
+
+.appheader.open {
+    animation: appheader-to-open 350ms linear forwards;
+}
+
+.appheader.closed {
+    animation: appheader-to-closed 350ms linear forwards;
+}
+
+.appheader.open .navlink span {
+    animation: navlink-to-open 350ms linear forwards;
+}
+
+.appheader.closed .navlink span {
+    animation: navlink-to-closed 350ms linear forwards;
+}
+
+.appheader.open .appheader-top {
+    animation: hamlogo-to-open 350ms linear forwards;
+}
+
+.appheader.closed .appheader-top {
+    animation: hamlogo-to-closed 350ms linear forwards;
+}
+
+.appheader.open .appheader-top > .hamburger {
+    animation: burger-to-open 350ms linear forwards;
+}
+
+.appheader.closed .appheader-top > .hamburger {
+    animation: burger-to-closed 350ms linear forwards;
+}
