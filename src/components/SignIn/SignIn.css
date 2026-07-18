@@ -1,14 +1,14 @@
 
 .signin {
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
+    overflow: scroll;
 }
 
 .signin div:not(.signin-forgot-container) {
     width: 400px;
     max-width: 90%;
+    margin: auto;
 }
 
 .signin hr {
@@ -23,7 +23,7 @@
     flex-direction: column;
 }
 
-.signin > div > h2 {
+.signin div h2 {
     color: var(--off-white);
     font-family: "Barlow Condensed", sans-serif;
     font-size: 2.6rem;
@@ -108,4 +108,8 @@
 
 .signin-display {
     display: block !important;
+}
+
+.signin section {
+    padding-bottom: 20px;
 }

@@ -7,6 +7,7 @@ const Loading = () => {
             <div className="loading-ring"></div>
             <div className="loading-ring"></div>
             <div className="loading-ring"></div>
+            <div className="loading-ring"></div>
             <h2>LOADING</h2>
             <div className="loading-shadow"></div>
         </div>

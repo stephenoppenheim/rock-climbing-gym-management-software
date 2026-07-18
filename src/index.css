@@ -5,6 +5,10 @@
   --light-grey: #98989c;
   --grey: #48484E;
   --dark-grey: #242428;
+  --green: green;
+  --red: red;
+  --yellow: #F6C519;
+  --blue: #3b82f6;
 }
 
 * {
@@ -15,6 +19,11 @@
 
 body {
   height: 100vh;
+}
+
+#root {
+  display: flex;
+  height: 100%;
 }
 
 .absent {

@@ -1,0 +1,86 @@
+
+.hamburger {
+    position: relative;
+    display: none;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    gap: 4px;
+}
+
+.hamburger-line {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--off-white);
+    border-radius: 6px;
+}
+
+@media (max-width: 575px) {
+    .hamburger {
+        display: flex;
+    }
+}
+
+@keyframes l1-to-x {
+    0% { transform: translateY(0) scaleX(1) rotate(0deg) }
+    50% { transform: translateY(6px) scaleX(.08) rotate(0deg) }
+    100% { transform: translateY(6px) scaleX(1) rotate(45deg) }
+}
+
+@keyframes l1-from-x {
+    0% { transform: translateY(6px) scaleX(1) rotate(45deg) }
+    50% { transform: translateY(6px) scaleX(.08) rotate(0deg) }
+    100% { transform: translateY(0) scaleX(1) rotate(0deg) }
+}
+
+@keyframes l2-to-x {
+    0% { transform: translateY(0) scaleX(1) rotate(0deg) }
+    50% { transform: translateY(0) scaleX(.08) rotate(0deg) }
+    100% { transform: translateY(0) scaleX(1) rotate(-45deg) }
+}
+
+@keyframes l2-from-x {
+    0% { transform: translateY(0) scaleX(1) rotate(-45deg) }
+    50% { transform: translateY(0) scaleX(.08) rotate(0deg) }
+    100% { transform: translateY(0) scaleX(1) rotate(0deg) }
+}
+
+@keyframes l3-to-x {
+    0% { transform: translateY(0) scaleX(1) rotate(0deg) }
+    50% { transform: translateY(-6px) scaleX(.08) rotate(0deg) }
+    100% { transform: translateY(-6px) scaleX(.08) rotate(0deg) }
+}
+
+@keyframes l3-from-x {
+    0% { transform: translateY(-6px) scaleX(.08) rotate(0deg) }
+    50% { transform: translateY(-6px) scaleX(.08) rotate(0deg) }
+    100% { transform: translateY(0) scaleX(1) rotate(0deg) }
+}
+
+.hamburger.open .l1 {
+    animation: l1-to-x 350ms linear forwards
+}
+
+.hamburger.open .l2 {
+    animation: l2-to-x 350ms linear forwards
+}
+
+.hamburger.open .l3 {
+    animation: l3-to-x 350ms linear forwards
+}
+
+.hamburger.closed .l1 {
+    animation: l1-from-x 350ms linear forwards
+}
+
+.hamburger.closed .l2 {
+    animation: l2-from-x 350ms linear forwards
+}
+
+.hamburger.closed .l3 {
+    animation: l3-from-x 350ms linear forwards
+}
