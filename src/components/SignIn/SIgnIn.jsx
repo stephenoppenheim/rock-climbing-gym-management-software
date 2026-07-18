@@ -14,7 +14,6 @@ const SignIn = () => {
     const hintDisplayTimer = useRef(null);
 
     const showHint = () => {
-        console.log(hint.current)
         hint.current.classList.add("signin-display");
         hint.current.classList.add("signin-visible");
         if (hintTimer.current) clearTimeout(hintTimer.current);
@@ -31,7 +30,7 @@ const SignIn = () => {
         const user = loginData.find(user => user.email === email);
         if (!user) console.error("FUTURE FEATURE - EMAL NOT FOUND");
         else {
-            if (user.password === password) navigate("/dashboard");
+            if (user.password === password) navigate("/loading");
             else console.error("FUTURE FEATURE - PASSWORD INCORRECT");
         }
     }

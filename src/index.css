@@ -1,3 +1,12 @@
+:root {
+  --bg-black: black;
+  --off-white: #F1EDE9;
+  --orange: #E8540B;
+  --light-grey: #98989c;
+  --grey: #48484E;
+  --dark-grey: #242428;
+}
+
 * {
   margin: 0;
   padding: 0;

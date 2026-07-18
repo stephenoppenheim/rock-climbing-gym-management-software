@@ -22,3 +22,11 @@
     font-display: swap;
     src: url("../assets/fonts/dm-sans/DMSans-Bold.woff2");
 }
+
+@font-face {
+    font-family: "DM Sans Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../assets/fonts/dm-sans/DMSans-ExtraBold.woff2");
+}

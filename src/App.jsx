@@ -22,6 +22,7 @@ import { DocumentProvider } from './components/Context/DocumentContext.jsx';
 import { AlertContext, AlertProvider } from './components/Context/AlertContext.jsx';
 import Alert from './components/Alert/Alert.jsx';
 import { CustomerProvider } from './components/Context/ClimberContext.jsx';
+import LoadingPage from './components/Pages/LoadingPage/LoadingPage.jsx';
 
 
 
@@ -43,6 +44,7 @@ function App() {
                   <Route path="user-info" element={<CustomerInput />} />
                 </Route>
                 <Route path="agreement" element={<ParticipantAgreement />} />
+                <Route path="loading" element={<LoadingPage />} />
                 <Route path="/dashboard" element={<DashboardPage />}>
                   <Route index element={<Dashboard criticalIssueState={criticalIssueState} />} />
                   <Route path="checkin" element={<CheckIn />} />

@@ -76,8 +76,6 @@ const CustomerSearch = ({ type, stateUpdaters }) => {
         }
     }
 
-    console.log("TB", type)
-
     return (
         <>
             <Input name="search" placeholder="Name, email, or phone number..." value={query} onChange={(e) => updateQuery(e.target.value)}/>

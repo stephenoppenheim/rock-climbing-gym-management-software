@@ -1,0 +1,9 @@
+
+.loadingpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-black);
+    height: 100%;
+    width: 100%;
+}

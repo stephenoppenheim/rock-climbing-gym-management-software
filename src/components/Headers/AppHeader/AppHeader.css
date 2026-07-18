@@ -1,45 +1,55 @@
 
-.app-header-sign-in-branding {
+.appheader {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    background-color: var(--bg-black);
+}
+
+.appheader-sign-in-branding {
     display: flex;
     align-items: center;
     font-size: 12px;
 }
 
-.app-header-sign-in-branding img {
+.appheader-sign-in-branding img {
     height: 40px;
     margin-right: 10px;
 }
 
-ul img {
+.appheader ul img {
     height: 40px;
 }
 
-.app-header {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 100%;
-}
 
-.app-header nav {
+
+.appheader nav {
     flex-grow: 1;
 }
 
-.app-header nav ul {
+.appheader nav ul {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: "DM Sans"
 }
 
-.app-header nav ul li:last-child {
+.appheader nav ul li:last-child {
     margin-top: auto;
 }
 
-.app-header-user {
+.appheader-user {
     display: flex;
     align-items: center;
 }
 
-.app-header-user img {
+.appheader-user img {
     height: 40px;
+}
+
+.appheader a {
+    color: var(--light-grey);
+    text-decoration: none;
+    font-size: .85rem;
 }
