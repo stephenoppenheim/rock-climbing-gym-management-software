@@ -44,7 +44,8 @@ function App() {
                   <Route path="user-info" element={<CustomerInput />} />
                 </Route>
                 <Route path="agreement" element={<ParticipantAgreement />} />
-                <Route path="/dashboard" element={<LoadingPage />}>
+                <Route path="loading" element={<LoadingPage />} />
+                <Route path="/dashboard" element={<DashboardPage />}>
                   <Route index element={<Dashboard criticalIssueState={criticalIssueState} />} />
                   <Route path="checkin" element={<CheckIn />} />
                   <Route path="climbers" element={<Climbers />} />

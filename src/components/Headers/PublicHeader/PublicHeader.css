@@ -38,7 +38,7 @@
 .publicheader-sign-in-branding,
 .publicheader-slogan-container {
     position: relative;
-    color: white;
+    color: var(--off-white);
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 800;
 }
@@ -46,7 +46,7 @@
 .publicheader-description-container {
     position: relative;
     z-index: 100;
-    color: #98989c;
+    color: var(--light-grey);
     font-size: .875rem;
     font-family: "DM Sans", sans-serif;
     margin-top: 15px;
