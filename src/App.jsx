@@ -24,6 +24,7 @@ import Alert from './components/Alert/Alert.jsx';
 import { CustomerProvider } from './components/Context/ClimberContext.jsx';
 import LoadingPage from './components/Pages/LoadingPage/LoadingPage.jsx';
 import QueryProvider from './components/Context/QueryContext.jsx';
+import Construction from './components/Construction/Construction.jsx';
 
 
 
@@ -53,10 +54,12 @@ function App() {
                     <Route index element={<Dashboard criticalIssueState={criticalIssueState} />} />
                     <Route path="checkin" element={<CheckIn />} />
                     <Route path="climbers" element={<Climbers />} />
-                    <Route path="pointofsale" element={<PointOfSale />} />
+                    <Route path="pointofsale" element={<Construction />} />
                     <Route path="documents" element={<PendingDocuments />} />
-                    <Route path="calendar" element={<Calendar />} />
+                    <Route path="calendar" element={<Construction />} />
+                    <Route path="settings" element={<Construction />} />
                   </Route>
+                  <Route path="*" element={<Navigate to="/" replace />}/>
                 </Routes>
                 <Alert />
               </CheckInProvider>
