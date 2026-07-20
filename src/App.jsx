@@ -59,6 +59,7 @@ function App() {
                     <Route path="calendar" element={<Construction />} />
                     <Route path="settings" element={<Construction />} />
                   </Route>
+                  <Route path="*" element={<Navigate to="/" replace />}/>
                 </Routes>
                 <Alert />
               </CheckInProvider>

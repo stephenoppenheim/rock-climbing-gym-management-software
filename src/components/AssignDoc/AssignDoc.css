@@ -30,3 +30,7 @@
 .adcc-container .customercard {
     border-radius: 8px;
 }
+
+.adcc-container .customercard:hover {
+    border: 1px solid var(--grey)
+}
