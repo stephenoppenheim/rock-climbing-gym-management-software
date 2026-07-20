@@ -6,7 +6,7 @@ export const CheckInContext = createContext();
 
 export const CheckInProvider = ({ children }) => {
 
-    const [checkInState, updateCheckInData] = useState(checkInData); // Mock data - Will update via (maybe) websocket in future version
+    const [checkInState, updateCheckInData] = useState(checkInData);
 
     return (
         <CheckInContext.Provider value={{ checkInState, updateCheckInData }}>

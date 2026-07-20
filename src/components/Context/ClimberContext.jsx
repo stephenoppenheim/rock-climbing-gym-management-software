@@ -6,7 +6,7 @@ export const CustomerContext = createContext();
 
 export const CustomerProvider = ({ children }) => {
 
-    const [customerDataState, updateCustomerDataState] = useState(customerData); // Mock data - Will update via (maybe) websocket in future version
+    const [customerDataState, updateCustomerDataState] = useState(customerData);
 
     return (
         <CustomerContext.Provider value={{ customerDataState, updateCustomerDataState }}>

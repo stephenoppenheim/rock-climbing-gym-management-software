@@ -6,7 +6,7 @@ export const DocumentContext = createContext();
 
 export const DocumentProvider = ({ children }) => {
 
-    const [pendingDocuments, updatePendingDocuments] = useState(pendingDocumentsData); // Mock data - Will update via (maybe) websocket in future version
+    const [pendingDocuments, updatePendingDocuments] = useState(pendingDocumentsData);
 
     return (
         <DocumentContext.Provider value={{ pendingDocuments, updatePendingDocuments }}>

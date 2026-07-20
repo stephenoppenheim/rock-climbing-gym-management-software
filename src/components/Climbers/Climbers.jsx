@@ -1,9 +1,10 @@
 
-import { useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import CustomerRecord from "../CustomerRecord/CustomerRecord";
 import CustomerSearch from "../CustomerSearch/CustomerSearch";
 import "./Climbers.css";
 import RightSideBar from "../RightSideBar/RightSideBar";
+import { QueryContext } from "../Context/QueryContext";
 
 const Climbers = () => {
 
@@ -11,8 +12,11 @@ const Climbers = () => {
     const [climberVisible, updateClimberVisible] = useState(false);
     const [sidebarOpen, updateSidebarOpen] = useState("closed");
     const stateUpdaters = { updateCurClimber, updateClimberVisible, updateSidebarOpen };
-                
+    const { updateQuery } = useContext(QueryContext);
 
+    // Reset search bar on mount
+    useEffect(() => updateQuery(""), []);
+                
     return (
         <div className="climbers">
             <CustomerSearch
@@ -26,5 +30,5 @@ const Climbers = () => {
         </div>
     )
 }
-// title, updateSidebarOpen, children
+
 export default Climbers;

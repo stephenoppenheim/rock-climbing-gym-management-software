@@ -1,0 +1,9 @@
+
+.footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    color: var(--off-white);
+    font-family: "DM Sans", sans-serif;
+}

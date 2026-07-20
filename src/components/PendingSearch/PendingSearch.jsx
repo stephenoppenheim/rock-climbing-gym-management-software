@@ -9,8 +9,9 @@ import CustomerCard from "../CustomerCard/CustomerCard";
 import { getExpirationDate, updateState } from "../../utils/helpers";
 import { DocumentContext } from "../Context/DocumentContext";
 import { QueryContext } from "../Context/QueryContext";
+import pendingDocumentsInitialState from "../PendingDocuments/pendingDocuments.initialState.js";
 
-const PendingSearch = ({ updateRecordSelected, doc, updateCurDoc }) => {
+const PendingSearch = ({ updateRecordSelected, doc, updateCurDoc, exitSidebar }) => {
 
     const { customerDataState, updateCustomerDataState } = useContext(CustomerContext);
     const { pendingDocuments, updatePendingDocuments } = useContext(DocumentContext);
@@ -41,7 +42,8 @@ const PendingSearch = ({ updateRecordSelected, doc, updateCurDoc }) => {
         updateState(updateCustomerDataState, null, null, "add", newRecord);
         updateState(updatePendingDocuments, "pendingId", doc.pendingId);
         updateRecordSelected(null);
-        updateCurDoc(null);
+        updateCurDoc(pendingDocumentsInitialState);
+        exitSidebar()
     }
 
     return (

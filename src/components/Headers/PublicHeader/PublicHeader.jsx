@@ -3,9 +3,9 @@ import "./PublicHeader.css";
 const PublicHeader = () => {
     return (
         <header className="publicheader">
-            <img className="publicheader-bg-img" src="https://www.stephencodes.com/launchcode/images/phbg.avif" />
+            <img className="publicheader-bg-img" src="https://www.stephencodes.com/launchcode/images/phbg.avif" alt="Background image of woman climbing" />
             <div className="publicheader-sign-in-branding">
-                <img src="https://www.stephencodes.com/launchcode/images/logo2.png" alt="logo" />
+                <img src="https://www.stephencodes.com/launchcode/images/logo2.png" alt="main logo" />
                 <h1>SUMMIT PRO</h1>
             </div>
             <div className="publicheader-bottom-text">

@@ -5,6 +5,15 @@
     color: white;
 }
 
+.customerinput fieldset {
+    border: none;
+}
+
+.customerinput-name {
+    display: flex;
+    flex-direction: column;
+}
+
 .customerinput fieldset:first-of-type {
     display: flex;
 }
@@ -18,7 +27,7 @@
     background-color:#242428;
     border: 1px solid #48484E;
     padding: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .customerinput .input {

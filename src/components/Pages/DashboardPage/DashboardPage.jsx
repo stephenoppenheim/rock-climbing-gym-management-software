@@ -2,7 +2,8 @@
 import { Outlet, useLocation } from "react-router";
 import AppHeader from "../../Headers/AppHeader/AppHeader";
 import "./DashboardPage.css";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import Footer from "../../Footer/Footer";
 
 const today = new Date();
     const formattedDate = new Intl.DateTimeFormat("en-US", {
@@ -44,6 +45,7 @@ const DashboardPage = () => {
                     <p>{formattedDate}</p>
                 </div>
                 <Outlet />
+                <Footer />
             </main>
         </>
     )

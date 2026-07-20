@@ -51,6 +51,8 @@ const CustomerInput = () => {
     const navigate = useNavigate();
     const today = new Date();
     const curYear = today.getFullYear();
+
+    // Data used to generate input elements
     const monthArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const dayCount = getDayCount(formData.birthMonth);
     const dateArr = Array.from({ length: dayCount }, (_, i) => String(i + 1).padStart(2, "0"));
@@ -58,7 +60,7 @@ const CustomerInput = () => {
 
     return (
         <form className="customerinput">
-            <fieldset>
+            <fieldset className="customerinput-name">
                 <Input label="First Name" name="firstName" value={formData.firstName} onChange={handleChange} type="text" required />
                 <Input label="Middle Name" name="middleName" value={formData.middleName} onChange={handleChange} type="text" />
                 <Input label="Last Name" name="lastName" value={formData.lastName} onChange={handleChange} type="text" required />
@@ -95,5 +97,5 @@ const CustomerInput = () => {
         </form>
     )
 }
-// classes, onClick, type = "button", text = "Click Me" }
+
 export default CustomerInput

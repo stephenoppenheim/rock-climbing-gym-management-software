@@ -21,7 +21,7 @@ const PendingAssign = ({ type, doc, record, updateRecordSelected, updateCurDoc, 
         updatedRecord.status = 0;
         updatedRecord.waiverExpirationDate = getExpirationDate();
         updatedRecord.hasWaiver = true;
-        updateState(updateCustomerDataState, "userId", record.userId, updatedRecord);
+        updateState(updateCustomerDataState, "userId", record.userId, "update", updatedRecord);
         updateState(updatePendingDocuments, "pendingId", doc.pendingId);
         exitSidebar()
     }

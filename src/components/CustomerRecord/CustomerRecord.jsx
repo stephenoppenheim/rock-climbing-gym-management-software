@@ -5,15 +5,11 @@ import { useState } from "react";
 const CustomerRecord = ({ openCloseRecord, recordOpen, updateRecordOpen, user }) => {
 
     const getAge = (birthDateStr) => {
-
         const today = new Date();
         const birthDate = new Date(birthDateStr);
-
         let age = today.getFullYear() - birthDate.getFullYear()
-
         const monthDif = today.getMonth() - birthDate.getMonth();
         const dayDif = today.getDate() - birthDate.getDate();
-
         return monthDif < 0 || monthDif === 0 && dayDif < 0 ? age - 1 : age;
     }
 
