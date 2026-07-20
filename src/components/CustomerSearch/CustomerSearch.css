@@ -1,0 +1,41 @@
+
+.customersearch {
+    height: 100%;
+    width: 635px;
+    max-width: 100%;
+    overflow: scroll;
+    border-radius: 8px;
+    border-bottom: .5px solid var(--grey);
+    overscroll-behavior: none;
+}
+
+.customersearch > .input > input {
+    height: 45px;
+    border-radius: 8px;
+    color: var(--off-white);
+    background-color: var(--dark-grey);
+    border: 1px solid var(--grey);
+    padding: 15px;
+}
+
+.customersearch > .input > input:focus {
+    outline: none;
+    border: 2px solid var(--orange);
+    padding: 14px;
+}
+
+.customersearch button {
+    position: relative;
+    font-family: "DM Sans";
+    border: 1px solid var(--orange);
+    background-color: rgba(232, 84, 11, .12);
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: var(--orange);
+}
+
+.customersearch button:hover {
+    cursor: pointer;
+    background-color: rgba(232, 84, 11, .2);
+}
+

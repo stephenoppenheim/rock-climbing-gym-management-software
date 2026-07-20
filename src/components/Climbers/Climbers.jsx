@@ -8,11 +8,26 @@ const Climbers = () => {
 
     const [curClimber, updateCurClimber] = useState({ firstName: null, lastName: null, phoneNumber: null, email: null, addressLine1: null, addressLine2: null, city: null, state: null, zipCode: null, birthDate: null, hasWaiver: null, status: null});
     const [climberVisible, updateClimberVisible] = useState(false);
+    const [recordOpen, updateRecordOpen] = useState("closed");
+    const stateUpdaters = { updateCurClimber, updateClimberVisible, updateRecordOpen };
+
+    const openCloseRecord = () => {
+        updateRecordOpen(prev => prev === "open" ? "closed" : "open");
+    }
 
     return (
-        <div>
-            <CustomerSearch type="climberSearch" stateUpdaters={{ updateCurClimber, updateClimberVisible }} />
-            <CustomerRecord user={curClimber} />
+        <div className="climbers">
+            <CustomerSearch
+                openCloseRecord={openCloseRecord}
+                type="climberSearch"
+                stateUpdaters={stateUpdaters} 
+            />
+            <CustomerRecord
+                openCloseRecord={openCloseRecord}
+                recordOpen={recordOpen}
+                updateRecordOpen={updateRecordOpen}
+                user={curClimber}
+            />
         </div>
     )
 }

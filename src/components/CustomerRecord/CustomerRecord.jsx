@@ -1,7 +1,9 @@
 
+import { X } from "lucide-react";
 import "./CustomerRecord.css";
+import { useState } from "react";
 
-const CustomerRecord = ({ user }) => {
+const CustomerRecord = ({ openCloseRecord, recordOpen, updateRecordOpen, user }) => {
 
     const getAge = (birthDateStr) => {
 
@@ -17,30 +19,42 @@ const CustomerRecord = ({ user }) => {
     }
 
     return (
-        <article className="customerrecord">
+        <article className={`customerrecord ${recordOpen}`}>
             <header>
-                <h3>{`${user.firstName} ${user.lastName}`}</h3>
-                <p>{user.phoneNumber}</p>
-                <p>{user.email}</p>
+                <h3>Customer Profile</h3>
+                <X className="customerrecord-x" onClick={() => updateRecordOpen("closed")}/>
             </header>
-            <section>
-                <div>
-                    <span>Address</span>
-                    <p>{user.addressLine1}</p>
-                    {user.addressLine2 && <p>{user.addressLine2}</p>}
-                    {<p>{`${user.city}, ${user.state} ${user.zipCode}`}</p>}
+            <section className="customerrecord-profile">
+                <div className="customerrecord-profile-pic-container">
+                    <div className="customerrecord-profile-pic"></div>
+                    <p>Profile<br />Picture</p>
                 </div>
-                <div>
-                    <span>Date of Birth</span>
-                    <p>{`${user.birthDate} - ${getAge(user.birthDate)}`}</p>
+                <div className="customerrecord-gen-info">
+                    <h3 className="customerrecord-name">{`${user.firstName} ${user.lastName}`}</h3>
+                    <p className="customerrecord-phone cr-mono">{user.phoneNumber}</p>
+                    <p className="customerrecord-email cr-mono">{user.email}</p>
                 </div>
-                <div>
-                    <span>Has Waiver?</span>
-                    <p>{user.hasWaiver ? "✅" : "❌"}</p>
+            </section>
+            <section className="customerrecord-data">
+                <div className="customerrecord-slot">
+                    <span className="cr-mono">Address</span>
+                    <p className="crv">{user.addressLine1}</p>
+                    {user.addressLine2 && <p className="crv">{user.addressLine2}</p>}
+                    {<p className="crv">{`${user.city}, ${user.state} ${user.zipCode}`}</p>}
+                </div> 
+                <div className="customerrecord-slot">
+                    <span className="cr-mono">Date of Birth</span>
+                    <p className="crv">{`${user.birthDate} - ${getAge(user.birthDate)} years old`}</p>
                 </div>
-                <div>
-                    <span>Waiver Valid</span>
-                    <p>{user.status ? "❌" : "✅"}</p>
+                <div className="customerrecord-waiver customerrecord-dual-slot">
+                    <div className="customerrecord-wd">
+                        <span className="cr-mono">Has Waiver?</span>
+                        <p className="crv">{user.hasWaiver ? "✅" : "❌"}</p>
+                    </div>
+                    <div className="customerrecord-wd">
+                        <span className="cr-mono">Waiver Valid</span>
+                        <p className="crv">{user.status ? "❌" : "✅"}</p>
+                    </div>
                 </div>
             </section>
         </article>
