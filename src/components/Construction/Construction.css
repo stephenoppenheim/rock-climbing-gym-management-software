@@ -1,0 +1,9 @@
+
+.construction {
+    height: 100%;
+    background-color: var(--bg-black);
+}
+
+.construction img {
+    width: 100%;
+}
