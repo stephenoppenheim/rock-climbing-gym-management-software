@@ -3,7 +3,7 @@ import "./Table.css";
 
 const Table = ({ headers, tableData, tableDataMap, btnText = null, onClick = null, onClickArgs = null }) => {
     return (
-        <table>
+        <table className="table">
             <thead>
                 <tr>
                     {headers.map((header, index) => <th key={index} scope="col">{header}</th>)}

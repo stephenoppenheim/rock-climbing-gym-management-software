@@ -9,9 +9,10 @@ import Table from "../Table/Table";
 import Button from "../Button/Button";
 import { AlertContext } from "../Context/AlertContext";
 import { CustomerContext } from "../Context/ClimberContext";
+import { CircleAlert, CircleCheck } from "lucide-react";
 
-const CustomerSearch = ({ type, stateUpdaters }) => {
-
+const CustomerSearch = ({ openCloseRecord, type, stateUpdaters }) => {
+    
     const { updateAlertData } = useContext(AlertContext)
     const { customerDataState, updateCustomerDataState } = useContext(CustomerContext);
     const { checkInState, updateCheckInData } = useContext(CheckInContext);
@@ -54,33 +55,46 @@ const CustomerSearch = ({ type, stateUpdaters }) => {
         const climber = customerDataState.find((customer) => customer.userId === userId);
         stateUpdaters.updateCurClimber(climber);
         stateUpdaters.updateClimberVisible(true);
+        stateUpdaters.updateRecordOpen("open");
     }
 
     const tableProps = {
         "checkIn": {
-            headers: ["Name", "Time", "Type", "Status"],
-            tableData: checkInState,
+            headers: ["", "Name", "Time"],
+            tableData: checkInState.toReversed(),
             tableDataMap: checkedInMap
         },
         "checkInSearch": {
-            headers: ["Name", "Type", "Status", ""],
+            headers: ["", "Name", ""],
             tableData: results,
             tableDataMap: checkInSearchMap,
             onClick: checkInClimber
         },
         "climberSearch": {
-            headers: ["Name", "Type", "Status", ""],
+            headers: ["", "Name", ""],
             tableData: results,
             tableDataMap: climberSearchMap,
             onClick: openClimberRecord
         }
     }
 
+    const inputProps = {
+        name: "search",
+        placeholder: "Name, email, or phone number...",
+        value: query,
+        onChange: (e) => updateQuery(e.target.value)
+    }
+
     return (
-        <>
-            <Input name="search" placeholder="Name, email, or phone number..." value={query} onChange={(e) => updateQuery(e.target.value)}/>
+        <div className="customersearch">
+            <Input
+                name="search"
+                placeholder="Name, email, or phone number..."
+                value={query} 
+                onChange={(e) => updateQuery(e.target.value)}
+            />
             <Table {...tableProps[finalType]} />
-        </>
+        </div>
     )
 }
 
@@ -91,12 +105,18 @@ const checkedInMap = (user) => {
     const checkInTime = user.checkInTime;
     const hour = +checkInTime.slice(11, 13);
     const issueIndex = user.status;
+    const formattedTime = `${hour % 12 || 12}:${checkInTime.slice(14, 16)} ${hour < 12 ? "AM" : "PM"}`;
+
     return (
         <tr key={key}>
-            <td>{`${user.firstName} ${user.lastName}`}</td>
-            <td>{`${hour % 12 || 12}:${checkInTime.slice(14, 16)} ${hour < 12 ? "AM" : "PM"}`}</td>
-            <td>{user.member ? "Member" : "Guest"}</td>
-            <td>{issueIndex ? issueList[issueIndex] : ""}</td>
+            <td>{issueIndex ? <CircleAlert className="table-alert"/> : <CircleCheck className="table-check"/>}</td>
+            <td>
+                <div className="table-name-member">
+                    <span className="table-name">{`${user.firstName} ${user.lastName}`}</span>
+                    <span className="table-member">{user.member ? "Member" : "Guest"}</span>
+                </div>
+            </td>
+            <td className="table-time">{formattedTime}</td>
         </tr>
     )
 }
@@ -107,9 +127,13 @@ const checkInSearchMap = (user, onClick) => {
     const issueIndex = user.status;
     return (
         <tr key={key}>
-            <td>{`${user.firstName} ${user.lastName}`}</td>
-            <td>{user.member ? "Member" : "Guest"}</td>
-            <td>{issueIndex ? issueList[issueIndex] : ""}</td>
+            <td>{issueIndex ? <CircleAlert className="table-alert"/> : <CircleCheck className="table-check"/>}</td>
+            <td>
+                <div className="table-name-member">
+                    <span className="table-name">{`${user.firstName} ${user.lastName}`}</span>
+                    <span className="table-member">{user.member ? "Member" : "Guest"}</span>
+                </div>
+            </td>
             <td><Button text="Check In" onClick={() => onClick(key)} /></td>
         </tr>
     )
@@ -121,9 +145,11 @@ const climberSearchMap = (user, onClick) => {
     const issueIndex = user.status;
     return (
         <tr key={key}>
-            <td>{`${user.firstName} ${user.lastName}`}</td>
-            <td>{user.member ? "Member" : "Guest"}</td>
-            <td>{issueIndex ? issueList[issueIndex] : ""}</td>
+            <td>{issueIndex ? <CircleAlert className="table-alert"/> : <CircleCheck className="table-check"/>}</td>
+            <div className="table-name-member">
+                <span className="table-name">{`${user.firstName} ${user.lastName}`}</span>
+                <span className="table-member">{user.member ? "Member" : "Guest"}</span>
+            </div>
             <td><Button text="View Record" onClick={() => onClick(key)} /></td>
         </tr>
     )

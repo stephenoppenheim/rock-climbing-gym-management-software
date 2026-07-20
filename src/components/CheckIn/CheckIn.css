@@ -1,3 +1,9 @@
+.checkin {
+    flex-grow: 1;
+    background-color: var(--bg-black);
+    overflow: scroll;
+}
+
 table {
     overflow-y: scroll;
     border: 1px solid black

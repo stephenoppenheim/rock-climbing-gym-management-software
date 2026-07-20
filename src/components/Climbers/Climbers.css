@@ -1,0 +1,6 @@
+
+.climbers {
+    flex-grow: 1;
+    overflow: scroll;
+    background-color: var(--bg-black);
+}

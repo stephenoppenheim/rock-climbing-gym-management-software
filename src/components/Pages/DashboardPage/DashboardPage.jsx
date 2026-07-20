@@ -4,6 +4,14 @@ import AppHeader from "../../Headers/AppHeader/AppHeader";
 import "./DashboardPage.css";
 import { useState } from "react";
 
+const today = new Date();
+    const formattedDate = new Intl.DateTimeFormat("en-US", {
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+        year: "numeric"
+    }).format(today);
+
 const DashboardPage = () => {
 
     const routeTitles = {
@@ -24,7 +32,10 @@ const DashboardPage = () => {
             <AppHeader />
             <div className="dashboardpage-spacer"></div>
             <main className="dashboardpage">
-                <h2>{curTitle}</h2>
+                <div className="dashboardpage-title">
+                    <h2>{curTitle}</h2>
+                    <p>{formattedDate}</p>
+                </div>
                 <Outlet />
             </main>
         </>
