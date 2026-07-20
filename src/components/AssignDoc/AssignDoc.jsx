@@ -1,5 +1,4 @@
 
-import { useState } from "react";
 import CustomerSearch from "../CustomerSearch/CustomerSearch";
 import PendingSearch from "../PendingSearch/PendingSearch";
 import "./AssignDoc.css";

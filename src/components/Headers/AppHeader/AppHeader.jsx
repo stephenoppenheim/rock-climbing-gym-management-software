@@ -22,7 +22,7 @@ const AppHeader = () => {
             <header className={`appheader ${menuState}`}>
                 <div className="appheader-top">
                     <div className="appheader-sign-in-branding">
-                        <img src="https://www.stephencodes.com/launchcode/images/logo2.png" alt="logo" />
+                        <img src="https://www.stephencodes.com/launchcode/images/logo2.png" alt="main logo" />
                         <hgroup>
                             <h1>Summit Pro</h1>
                             <p>Movement</p>
