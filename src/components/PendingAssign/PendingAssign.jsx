@@ -6,8 +6,9 @@ import "./PendingAssign.css";
 import { CustomerContext } from "../Context/ClimberContext";
 import { DocumentContext } from "../Context/DocumentContext";
 import { getExpirationDate, updateState } from "../../utils/helpers";
+import pendingDocumentsInitialState from "../PendingDocuments/pendingDocuments.initialState.js";
 
-const PendingAssign = ({ type, doc, record, updateRecordSelected, updateCurDoc }) => {
+const PendingAssign = ({ type, doc, record, updateRecordSelected, updateCurDoc, exitSidebar }) => {
 
     const { customerDataState, updateCustomerDataState } = useContext(CustomerContext);
     const { pendingDocuments, updatePendingDocuments } = useContext(DocumentContext);
@@ -22,19 +23,18 @@ const PendingAssign = ({ type, doc, record, updateRecordSelected, updateCurDoc }
         updatedRecord.hasWaiver = true;
         updateState(updateCustomerDataState, "userId", record.userId, updatedRecord);
         updateState(updatePendingDocuments, "pendingId", doc.pendingId);
-        updateRecordSelected(null);
-        updateCurDoc(null)
+        exitSidebar()
     }
 
     return (
-        <aside>
+        <section className="pendingassign">
             <p>The {doc.type.toLowerCase()} will be attached to this record.</p>
-            <CustomerCard docData={doc} updateRecordSelected={updateRecordSelected} />
+            <CustomerCard docData={record} updateRecordSelected={updateRecordSelected} />
             <div>
                 <Button text="Back" onClick={() => updateRecordSelected(null)} />
                 <Button text="Confirm & Link" onClick={attachDoc} />
             </div>
-        </aside>
+        </section>
     )
 }
 

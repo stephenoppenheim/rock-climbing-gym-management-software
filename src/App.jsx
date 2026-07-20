@@ -23,6 +23,7 @@ import { AlertContext, AlertProvider } from './components/Context/AlertContext.j
 import Alert from './components/Alert/Alert.jsx';
 import { CustomerProvider } from './components/Context/ClimberContext.jsx';
 import LoadingPage from './components/Pages/LoadingPage/LoadingPage.jsx';
+import QueryProvider from './components/Context/QueryContext.jsx';
 
 
 
@@ -36,31 +37,33 @@ function App() {
 
   return (
     <>
-      <CustomerProvider>
-        <AlertProvider >
-          <DocumentProvider>
-            <CheckInProvider>
-              <Routes>
-                <Route path="/" element={<SignInPage />}>
-                  <Route index element={<SignIn />} />
-                  <Route path="user-info" element={<CustomerInput />} />
-                </Route>
-                <Route path="agreement" element={<ParticipantAgreement />} />
-                <Route path="loading" element={<LoadingPage />} />
-                <Route path="/dashboard" element={<DashboardPage />}>
-                  <Route index element={<Dashboard criticalIssueState={criticalIssueState} />} />
-                  <Route path="checkin" element={<CheckIn />} />
-                  <Route path="climbers" element={<Climbers />} />
-                  <Route path="pointofsale" element={<PointOfSale />} />
-                  <Route path="documents" element={<PendingDocuments />} />
-                  <Route path="calendar" element={<Calendar />} />
-                </Route>
-              </Routes>
-              <Alert />
-            </CheckInProvider>
-          </DocumentProvider>
-        </AlertProvider>
-      </CustomerProvider>
+      <QueryProvider>
+        <CustomerProvider>
+          <AlertProvider >
+            <DocumentProvider>
+              <CheckInProvider>
+                <Routes>
+                  <Route path="/" element={<SignInPage />}>
+                    <Route index element={<SignIn />} />
+                    <Route path="user-info" element={<CustomerInput />} />
+                  </Route>
+                  <Route path="agreement" element={<ParticipantAgreement />} />
+                  <Route path="loading" element={<LoadingPage />} />
+                  <Route path="/dashboard" element={<DashboardPage />}>
+                    <Route index element={<Dashboard criticalIssueState={criticalIssueState} />} />
+                    <Route path="checkin" element={<CheckIn />} />
+                    <Route path="climbers" element={<Climbers />} />
+                    <Route path="pointofsale" element={<PointOfSale />} />
+                    <Route path="documents" element={<PendingDocuments />} />
+                    <Route path="calendar" element={<Calendar />} />
+                  </Route>
+                </Routes>
+                <Alert />
+              </CheckInProvider>
+            </DocumentProvider>
+          </AlertProvider>
+        </CustomerProvider>
+      </QueryProvider>
     </>
   )
 }

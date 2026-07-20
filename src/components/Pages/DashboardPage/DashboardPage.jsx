@@ -16,16 +16,23 @@ const DashboardPage = () => {
 
     const routeTitles = {
         "/dashboard": "Dashboard",
+        "/dashboard/": "Dashboard",
         "/dashboard/checkin": "Check-In",
+        "/dashboard/checkin/": "Check-In",
         "/dashboard/climbers": "Climbers",
+        "/dashboard/climbers/": "Climbers",
         "/dashboard/pointofsale": "Point Of Sale",
+        "/dashboard/pointofsale/": "Point Of Sale",
         "/dashboard/documents": "Pending Documents",
+         "/dashboard/documents/": "Pending Documents",
         "/dashboard/calendar": "Calendar",
-        "/dashboard/settings": "Settings"
+        "/dashboard/calendar/": "Calendar",
+        "/dashboard/settings": "Settings",
+        "/dashboard/settings/": "Settings"
     }
 
     const curLocation = useLocation();
-    const curTitle = routeTitles[location.pathname];
+    const curTitle = routeTitles[curLocation.pathname];
 
     return (
         <>

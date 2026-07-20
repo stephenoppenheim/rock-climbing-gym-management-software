@@ -10,13 +10,14 @@ import Button from "../Button/Button";
 import { AlertContext } from "../Context/AlertContext";
 import { CustomerContext } from "../Context/ClimberContext";
 import { CircleAlert, CircleCheck } from "lucide-react";
+import { QueryContext } from "../Context/QueryContext";
 
-const CustomerSearch = ({ openCloseRecord, type, stateUpdaters }) => {
+const CustomerSearch = ({ type, stateUpdaters }) => {
     
     const { updateAlertData } = useContext(AlertContext)
     const { customerDataState, updateCustomerDataState } = useContext(CustomerContext);
     const { checkInState, updateCheckInData } = useContext(CheckInContext);
-    const [query, updateQuery] = useState("");
+    const { query, updateQuery } = useContext(QueryContext);
 
     const fuse = new Fuse(customerDataState, {
         keys: ["firstName", "lastName", "phoneNumber", "email"],
@@ -51,11 +52,11 @@ const CustomerSearch = ({ openCloseRecord, type, stateUpdaters }) => {
         updateCheckInData([...checkInState, newCheckInData]);
     }
 
-    const openClimberRecord = (userId, updateCurClimber, updateClimberVisible) => {
+    const openClimberRecord = (userId) => {
         const climber = customerDataState.find((customer) => customer.userId === userId);
         stateUpdaters.updateCurClimber(climber);
         stateUpdaters.updateClimberVisible(true);
-        stateUpdaters.updateRecordOpen("open");
+        stateUpdaters.updateSidebarOpen("open");
     }
 
     const tableProps = {
@@ -146,11 +147,15 @@ const climberSearchMap = (user, onClick) => {
     return (
         <tr key={key}>
             <td>{issueIndex ? <CircleAlert className="table-alert"/> : <CircleCheck className="table-check"/>}</td>
-            <div className="table-name-member">
-                <span className="table-name">{`${user.firstName} ${user.lastName}`}</span>
-                <span className="table-member">{user.member ? "Member" : "Guest"}</span>
-            </div>
-            <td><Button text="View Record" onClick={() => onClick(key)} /></td>
+            <td>
+                <div className="table-name-member">
+                    <span className="table-name">{`${user.firstName} ${user.lastName}`}</span>
+                    <span className="table-member">{user.member ? "Member" : "Guest"}</span>
+                </div>
+            </td>
+            <td>
+                <Button text="View Record" onClick={() => onClick(key)} />
+            </td>
         </tr>
     )
 }

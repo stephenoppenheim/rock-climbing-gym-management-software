@@ -8,12 +8,13 @@ import { CustomerContext } from "../Context/ClimberContext";
 import CustomerCard from "../CustomerCard/CustomerCard";
 import { getExpirationDate, updateState } from "../../utils/helpers";
 import { DocumentContext } from "../Context/DocumentContext";
+import { QueryContext } from "../Context/QueryContext";
 
 const PendingSearch = ({ updateRecordSelected, doc, updateCurDoc }) => {
 
     const { customerDataState, updateCustomerDataState } = useContext(CustomerContext);
     const { pendingDocuments, updatePendingDocuments } = useContext(DocumentContext);
-    const [query, updateQuery] = useState("");
+    const { query, updateQuery } = useContext(QueryContext);
 
     const fuse = new Fuse(customerDataState, {
         keys: ["firstName", "lastName", "phoneNumber", "email"],
@@ -40,18 +41,30 @@ const PendingSearch = ({ updateRecordSelected, doc, updateCurDoc }) => {
         updateState(updateCustomerDataState, null, null, "add", newRecord);
         updateState(updatePendingDocuments, "pendingId", doc.pendingId);
         updateRecordSelected(null);
-        updateCurDoc(null)
+        updateCurDoc(null);
     }
 
     return (
-        <aside>
+        <section className="pendingsearch">
             <p>Search for an existing record or create a new one.</p>
-            <Input value={query} onChange={(e) => updateQuery(e.target.value)} />
-            <div>
-                {results.map(customer => <CustomerCard key={customer.item.userId} docData={customer.item} updateRecordSelected={updateRecordSelected} hasOnClick />)}
+            <Input
+                value={query}
+                onChange={(e) => updateQuery(e.target.value)}
+                placeholder="Alex Honnold..."
+            />
+            <div className="pendingsearch-cards">
+                {results.map(customer => (
+                    <CustomerCard
+                        key={customer.item.userId}
+                        customerId={customer.item.userId}
+                        docData={customer.item}
+                        updateRecordSelected={updateRecordSelected}
+                        hasOnClick
+                    />
+                ))}
             </div>
             <Button text="+ Create New Record" onClick={addNewRecord} />
-        </aside>
+        </section>
     )
 }
 

@@ -1,0 +1,38 @@
+
+.rightsidebar {
+    height: 100%;
+    width: 320px;
+    position: absolute;
+    top: 0;
+    border-left: 2px solid var(--grey);
+    background-color: var(--bg-black);
+    color: white;
+    transition: right .5s ease;
+}
+
+.rightsidebar.closed {
+    right: -325px;
+}
+
+.rightsidebar.open {
+    right: 0;
+}
+
+.rightsidebar header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    width: 100%;
+    font-family: "DM Sans Reg", sans-serif;
+    font-size: .9rem;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: var(--grey);
+    padding: 0 20px;
+}
+
+.rightsidebar-x {
+    height: 22px;
+    cursor: pointer;
+}

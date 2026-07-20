@@ -1,0 +1,48 @@
+
+.pendingsearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pendingsearch .input {
+    margin: 10px;
+    width: 71%;
+}
+
+.pendingsearch > .input > input {
+    height: 35px;
+    border-radius: 8px;
+    color: var(--off-white);
+    background-color: var(--dark-grey);
+    border: 1px solid var(--grey);
+    padding: 15px;
+}
+
+.pendingsearch > .input > input:focus {
+    outline: none;
+    border: 2px solid var(--orange);
+    padding: 14px;
+}
+
+.pendingsearch > p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.pendingsearch-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border-radius: 8px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: var(--grey);
+    height: 20%;
+    overflow: scroll;
+    margin: 20px;
+}

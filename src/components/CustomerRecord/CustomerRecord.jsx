@@ -1,5 +1,4 @@
 
-import { X } from "lucide-react";
 import "./CustomerRecord.css";
 import { useState } from "react";
 
@@ -19,11 +18,7 @@ const CustomerRecord = ({ openCloseRecord, recordOpen, updateRecordOpen, user })
     }
 
     return (
-        <article className={`customerrecord ${recordOpen}`}>
-            <header>
-                <h3>Customer Profile</h3>
-                <X className="customerrecord-x" onClick={() => updateRecordOpen("closed")}/>
-            </header>
+        <>
             <section className="customerrecord-profile">
                 <div className="customerrecord-profile-pic-container">
                     <div className="customerrecord-profile-pic"></div>
@@ -57,7 +52,7 @@ const CustomerRecord = ({ openCloseRecord, recordOpen, updateRecordOpen, user })
                     </div>
                 </div>
             </section>
-        </article>
+        </>
     )
 }
 
