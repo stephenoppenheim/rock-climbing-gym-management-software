@@ -1,4 +1,26 @@
+.pendingdocuments {
+    color: white;
+    flex-grow: 1;
+    background-color: var(--bg-black);
+}
+
 .pendingdocuments-section {
+    width: 635px;
+    max-width: 100%;
     border: 1px solid black;
     border-radius: 8px;
+}
+
+.pendingdocuments-section .table {
+    margin: 0;
+}
+
+.pendingdocuments .button {
+    position: relative;
+    font-family: "DM Sans";
+    border: 1px solid var(--orange);
+    background-color: rgba(232, 84, 11, .12);
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: var(--orange);
 }

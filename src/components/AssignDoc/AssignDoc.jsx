@@ -4,23 +4,20 @@ import CustomerSearch from "../CustomerSearch/CustomerSearch";
 import PendingSearch from "../PendingSearch/PendingSearch";
 import "./AssignDoc.css";
 import PendingAssign from "../PendingAssign/PendingAssign";
+import CustomerCard from "../CustomerCard/CustomerCard";
 
-const AssignDoc = ({ doc, updateCurDoc }) => {
+const AssignDoc = ({ doc, updateCurDoc, recordSelected, updateRecordSelected, exitSidebar }) => {
 
-    const [recordSelected, updateRecordSelected] = useState(null);
     const { firstName, middleName, lastName } = doc;
     const fullName = [firstName, middleName, lastName].map(name => name.trim()).filter(Boolean).join(" ");
     const [birthYear, birthMonth, birthDate] = doc.birthDate.split("-");
 
     return (
-        <article className="assign">
-            <header>
-                <h3>Attach {doc.type} to Record</h3>
-                <div>
-                    <h4>{fullName}</h4>
-                    <p>{`${birthMonth}-${birthDate}-${birthYear}`}</p>
-                </div>
-            </header>
+        <>  
+            <div className="adcc-container">
+                <CustomerCard docData={doc}/>
+            </div>
+            
             {!recordSelected && <PendingSearch 
                                     updateRecordSelected={updateRecordSelected}
                                     doc={doc}
@@ -31,8 +28,9 @@ const AssignDoc = ({ doc, updateCurDoc }) => {
                                    record={recordSelected}
                                    updateRecordSelected={updateRecordSelected}
                                    updateCurDoc={updateCurDoc}
+                                   exitSidebar={exitSidebar}
                                />}
-        </article>
+        </>
     )
 }
 

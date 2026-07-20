@@ -1,0 +1,25 @@
+
+.pendingassign > p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 35px 17px 35px;
+}
+
+.pendingassign .customercard {
+    width: 80%;
+    justify-self: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.pendingassign > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pendingassign .button {
+    width: 130px;
+    height: 40px;
+    background-color: rgba(232, 84, 11, .25);;
+}
