@@ -41,17 +41,8 @@ const AppHeader = () => {
                         <NavbarLink path="/dashboard/climbers" label="Climbers" end>
                             <Users className="appheader-img" />
                         </NavbarLink>
-                        <NavbarLink path="/dashboard/pointofsale" label="Point of Sale" end>
-                            <ShoppingCart className="appheader-img" />
-                        </NavbarLink>
                         <NavbarLink path="/dashboard/documents" label="Pending Documents" end>
                             <FileText className="appheader-img" />
-                        </NavbarLink>
-                        <NavbarLink path="/dashboard/calendar" label="Calendar" end>
-                            <CalendarDays className="appheader-img" />
-                        </NavbarLink>
-                        <NavbarLink path="/dashboard/settings" label="Settings" end>
-                            <Settings className="appheader-img" />
                         </NavbarLink>
                     </ul>
                 </nav>

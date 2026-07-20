@@ -1,14 +1,54 @@
 
+.alert-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 5px solid green;
+    background-color: transparent;
+}
+
 .alert {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;;
     position: fixed;
-    background-color: white;
-    border: 1px solid black;
+    background-color: var(--bg-black);
+    border: 2px solid var(--grey);
+    color: var(--off-white);
     inset-inline: 0;
     margin-inline: auto;
     align-self: center;
     width: 200px;
+    font-family: "DM Sans", sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.alert * {
+    margin: 10px;
+}
+
+.alert > .input > input:focus {
+    outline: none;
+    border: 2px solid var(--orange);
+    padding: 14px;
+}
+
+.alert button {
+    position: relative;
+    font-family: "DM Sans";
+    border: 1px solid var(--orange);
+    background-color: rgba(232, 84, 11, .12);
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: var(--orange);
+}
+
+.alert button:hover {
+    cursor: pointer;
+    background-color: rgba(232, 84, 11, .2);
 }

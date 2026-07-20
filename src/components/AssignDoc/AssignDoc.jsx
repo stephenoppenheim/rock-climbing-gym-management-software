@@ -21,6 +21,7 @@ const AssignDoc = ({ doc, updateCurDoc, recordSelected, updateRecordSelected, ex
                                     updateRecordSelected={updateRecordSelected}
                                     doc={doc}
                                     updateCurDoc={updateCurDoc}
+                                    exitSidebar={exitSidebar}
                                 />}
             {recordSelected && <PendingAssign
                                    doc={doc}

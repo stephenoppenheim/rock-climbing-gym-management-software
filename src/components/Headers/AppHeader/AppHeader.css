@@ -1,5 +1,5 @@
-
 .appheader {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -8,6 +8,7 @@
     font-family: "DM Sans", sans-serif;
     overflow: scroll;
     white-space: nowrap;
+    z-index: 1;
 }
 
 .appheader > div {

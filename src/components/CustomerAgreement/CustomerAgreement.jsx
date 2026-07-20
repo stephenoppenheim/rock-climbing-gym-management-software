@@ -13,6 +13,7 @@ const CustomerAgreement = () => {
     const navigate = useNavigate();
     const required = ["firstName", "lastName", "birthMonth", "birthDate", "birthYear", "addressLine1", "city", "state", "zipCode", "email", "phoneNumber", "eName", "ePhoneNumber"];
 
+    // Redirect to sign in page if error occurs and all fields aren't filled out
     useEffect(() => { required.some(key => formData[key] === "") && navigate("/") }, []);
 
     const { pendingDocuments, updatePendingDocuments } = useContext(DocumentContext);
@@ -34,13 +35,18 @@ const CustomerAgreement = () => {
 
     const handleSubmit = () => {
 
+        // Determine first (if any) missing item to focus on
         const scrollTo = !initialState ? initialRef : !signatureState ? signatureRef : !hasConsented ? checkRef : null;
 
+        // Scroll to missed item and highlight briefly for easy visibility
         if (scrollTo) {
             scrollTo.current.scrollIntoView({ behavior: "smooth", block: "center" });
+            scrollTo.current.classList.add("short-highlight");
+            setTimeout(() => scrollTo.current.classList.remove("short-highlight"), 5000);
             return;
         }
 
+        // Restructure birthday into YYYY-MM-DD
         const { birthYear, birthMonth, birthDate: birthDay, ...restOfForm } = formData;
         const newDoc = { 
             ...restOfForm, 

@@ -9,9 +9,7 @@ import { Routes, Route, Navigate } from 'react-router';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
 import CheckIn from './components/CheckIn/CheckIn.jsx';
 import Climbers from './components/Climbers/Climbers.jsx';
-import PointOfSale from './components/PointOfSale/PointOfSale.jsx';
 import PendingDocuments from './components/PendingDocuments/PendingDocuments.jsx';
-import Calendar from './components/Calendar/Calendar.jsx';
 import { CheckInProvider } from './components/Context/CheckInContext.jsx';
 import criticalIssueData from "./assets/critical-issue-data.json";
 import pendingDocumentsData from "./assets/pending-documents-data.json";
@@ -24,17 +22,11 @@ import Alert from './components/Alert/Alert.jsx';
 import { CustomerProvider } from './components/Context/ClimberContext.jsx';
 import LoadingPage from './components/Pages/LoadingPage/LoadingPage.jsx';
 import QueryProvider from './components/Context/QueryContext.jsx';
-import Construction from './components/Construction/Construction.jsx';
-
-
-
 
 function App() {
 
   const isLoggedIn = false;
   const [criticalIssueState, updateCriticalIssueState] = useState(criticalIssueData);
-
-  window.addEventListener("resize", console.log(window.innerHeight, window.innerWidth))
 
   return (
     <>
@@ -54,10 +46,7 @@ function App() {
                     <Route index element={<Dashboard criticalIssueState={criticalIssueState} />} />
                     <Route path="checkin" element={<CheckIn />} />
                     <Route path="climbers" element={<Climbers />} />
-                    <Route path="pointofsale" element={<Construction />} />
                     <Route path="documents" element={<PendingDocuments />} />
-                    <Route path="calendar" element={<Construction />} />
-                    <Route path="settings" element={<Construction />} />
                   </Route>
                   <Route path="*" element={<Navigate to="/" replace />}/>
                 </Routes>

@@ -1,7 +1,7 @@
 
 import "./PendingDocuments.css";
 import DocumentCard from "../DocumentCard/DocumentCard";
-import { useContext, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { DocumentContext } from "../Context/DocumentContext";
 import AssignDoc from "../AssignDoc/AssignDoc";
 import Table from "../Table/Table";
@@ -17,6 +17,7 @@ const PendingDocuments = () => {
     const [recordSelected, updateRecordSelected] = useState(null);
     const { pendingDocuments, updatePendingDocuments } = useContext(DocumentContext);
     const { query, updateQuery } = useContext(QueryContext);
+    useEffect(() => updateQuery(""), []);
 
     const onClick = (doc) => {
         updateCurDoc(doc);
@@ -61,8 +62,6 @@ const PendingDocuments = () => {
         </div>
     )
 }
-
-// {curDoc && }
 
 const pendingDocsMap = (docData, updateCurDoc) => {
 

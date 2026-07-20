@@ -41,8 +41,3 @@ const Signature = ({ label, updateState, updateVisibility, absent}) => {
 }
 
 export default Signature;
-
-// { classes, onClick, type = "button", text = "Click Me" }
-
-// Width is Math.min(700, window.innerWidth - 50)
-// Height is Math.min(350, window.innerHeight - 175);
